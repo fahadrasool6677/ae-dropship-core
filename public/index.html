@@ -1,0 +1,1128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AliExpress Get Item by ID & OAuth 2.0 - Complete Architecture Walkthrough</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-base: #090d16;
+      --bg-surface: #0f172a;
+      --bg-card: rgba(30, 41, 59, 0.5);
+      --bg-card-hover: rgba(30, 41, 59, 0.8);
+      --border-subtle: rgba(255, 255, 255, 0.08);
+      --border-active: rgba(255, 71, 71, 0.4);
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      --accent-coral: #ff4747;
+      --accent-orange: #ff6a00;
+      --accent-gradient: linear-gradient(135deg, #ff4747 0%, #ff6a00 100%);
+      --accent-indigo: #6366f1;
+      --accent-cyan: #06b6d4;
+      --accent-emerald: #10b981;
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 20px;
+      --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+      --shadow-glow: 0 0 35px rgba(255, 71, 71, 0.15);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background-color: var(--bg-base);
+      color: var(--text-main);
+      font-family: var(--font-sans);
+      line-height: 1.6;
+      overflow-x: hidden;
+      padding-bottom: 80px;
+      background-image: 
+        radial-gradient(circle at 15% 10%, rgba(255, 71, 71, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 85% 25%, rgba(99, 102, 241, 0.07) 0%, transparent 45%);
+    }
+
+    /* Top Navigation Header */
+    header {
+      background: rgba(15, 23, 42, 0.75);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border-subtle);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      padding: 16px 24px;
+    }
+
+    .header-container {
+      max-width: 1280px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: var(--text-main);
+    }
+
+    .brand-logo {
+      width: 38px;
+      height: 38px;
+      border-radius: 10px;
+      background: var(--accent-gradient);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 1.1rem;
+      color: white;
+      box-shadow: 0 4px 15px rgba(255, 71, 71, 0.35);
+    }
+
+    .brand-text h1 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .brand-text p {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    .header-badges {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      border: 1px solid var(--border-subtle);
+      background: rgba(255, 255, 255, 0.04);
+    }
+
+    .badge-success {
+      background: rgba(16, 185, 129, 0.12);
+      border-color: rgba(16, 185, 129, 0.3);
+      color: #34d399;
+    }
+
+    .badge-pulse::before {
+      content: "";
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #10b981;
+      display: inline-block;
+      box-shadow: 0 0 8px #10b981;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.9); }
+      100% { opacity: 1; transform: scale(1); }
+    }
+
+    /* Main Container */
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 32px 24px;
+    }
+
+    /* Hero Banner */
+    .hero {
+      background: linear-gradient(180deg, rgba(30, 41, 59, 0.4) 0%, rgba(15, 23, 42, 0.6) 100%);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      padding: 40px;
+      margin-bottom: 36px;
+      position: relative;
+      overflow: hidden;
+      box-shadow: var(--shadow-glow);
+    }
+
+    .hero-tag {
+      color: var(--accent-coral);
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 12px;
+      display: inline-block;
+    }
+
+    .hero h2 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1.25;
+      margin-bottom: 14px;
+    }
+
+    .hero p {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      max-width: 820px;
+      margin-bottom: 24px;
+    }
+
+    .hero-stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin-top: 24px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border-subtle);
+    }
+
+    .stat-card {
+      background: rgba(255, 255, 255, 0.03);
+      padding: 16px;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-subtle);
+    }
+
+    .stat-label {
+      font-size: 0.75rem;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 4px;
+    }
+
+    .stat-value {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    /* Tabs Navigation */
+    .tabs-nav {
+      display: flex;
+      gap: 8px;
+      border-bottom: 1px solid var(--border-subtle);
+      margin-bottom: 32px;
+      overflow-x: auto;
+      padding-bottom: 8px;
+    }
+
+    .tab-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      font-family: var(--font-sans);
+      font-size: 0.95rem;
+      font-weight: 600;
+      padding: 10px 18px;
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      white-space: nowrap;
+    }
+
+    .tab-btn:hover {
+      color: var(--text-main);
+      background: rgba(255, 255, 255, 0.04);
+    }
+
+    .tab-btn.active {
+      color: var(--accent-coral);
+      background: rgba(255, 71, 71, 0.1);
+      border-bottom: 2px solid var(--accent-coral);
+    }
+
+    .tab-content {
+      display: none;
+    }
+
+    .tab-content.active {
+      display: block;
+      animation: fadeIn 0.3s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Section Cards */
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      padding: 28px;
+      margin-bottom: 28px;
+      backdrop-filter: blur(12px);
+      transition: border-color 0.2s ease;
+    }
+
+    .card:hover {
+      border-color: rgba(255, 255, 255, 0.14);
+    }
+
+    .card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+
+    .card-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    /* Live Product Showcase Section */
+    .product-showcase {
+      display: grid;
+      grid-template-columns: 440px 1fr;
+      gap: 32px;
+      align-items: start;
+    }
+
+    @media (max-width: 960px) {
+      .product-showcase { grid-template-columns: 1fr; }
+    }
+
+    .gallery-container {
+      background: rgba(15, 23, 42, 0.6);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 16px;
+    }
+
+    .main-image-wrap {
+      position: relative;
+      width: 100%;
+      height: 420px;
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+      background: #0b1120;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .main-image-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+
+    .main-image-wrap img:hover {
+      transform: scale(1.05);
+    }
+
+    .thumbnails {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 8px;
+    }
+
+    .thumb-btn {
+      width: 100%;
+      aspect-ratio: 1/1;
+      border-radius: 6px;
+      border: 2px solid transparent;
+      overflow: hidden;
+      cursor: pointer;
+      background: transparent;
+      padding: 0;
+      transition: all 0.2s ease;
+    }
+
+    .thumb-btn.active {
+      border-color: var(--accent-coral);
+      box-shadow: 0 0 10px rgba(255, 71, 71, 0.4);
+    }
+
+    .thumb-btn img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .product-details {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .product-id-tag {
+      font-family: var(--font-mono);
+      font-size: 0.8rem;
+      color: var(--text-dim);
+      background: rgba(255, 255, 255, 0.04);
+      padding: 4px 8px;
+      border-radius: 4px;
+      display: inline-block;
+      width: fit-content;
+    }
+
+    .product-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      line-height: 1.35;
+      color: var(--text-main);
+    }
+
+    .price-box {
+      background: linear-gradient(135deg, rgba(255, 71, 71, 0.08) 0%, rgba(255, 106, 0, 0.08) 100%);
+      border: 1px solid rgba(255, 71, 71, 0.2);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      display: flex;
+      align-items: baseline;
+      gap: 16px;
+    }
+
+    .current-price {
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: var(--accent-coral);
+    }
+
+    .original-price {
+      font-size: 1.2rem;
+      color: var(--text-dim);
+      text-decoration: line-through;
+    }
+
+    .discount-badge {
+      background: var(--accent-gradient);
+      color: white;
+      font-size: 0.8rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 20px;
+    }
+
+    .sku-selector-group {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .sku-label {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text-muted);
+    }
+
+    .sku-options {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .sku-btn {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-main);
+      padding: 8px 14px;
+      border-radius: var(--radius-sm);
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .sku-btn:hover {
+      background: rgba(255, 255, 255, 0.08);
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .sku-btn.active {
+      border-color: var(--accent-coral);
+      background: rgba(255, 71, 71, 0.15);
+      color: white;
+    }
+
+    .sku-thumb {
+      width: 20px;
+      height: 20px;
+      border-radius: 4px;
+      object-fit: cover;
+    }
+
+    .meta-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 12px;
+      padding: 16px 0;
+      border-top: 1px solid var(--border-subtle);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .meta-item {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .meta-k {
+      font-size: 0.72rem;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+
+    .meta-v {
+      font-size: 0.92rem;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-top: 2px;
+    }
+
+    /* Flow Diagrams */
+    .flow-steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin-top: 20px;
+    }
+
+    .flow-step {
+      background: rgba(15, 23, 42, 0.5);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      position: relative;
+    }
+
+    .step-number {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: rgba(255, 71, 71, 0.15);
+      color: var(--accent-coral);
+      font-size: 0.85rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 12px;
+    }
+
+    .flow-step h4 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: var(--text-main);
+    }
+
+    .flow-step p {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    /* Code Blocks */
+    .code-box {
+      background: #080c14;
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      margin: 16px 0;
+    }
+
+    .code-header {
+      background: rgba(255, 255, 255, 0.03);
+      padding: 10px 16px;
+      border-bottom: 1px solid var(--border-subtle);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      color: var(--text-dim);
+    }
+
+    .copy-btn {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-muted);
+      font-family: var(--font-sans);
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .copy-btn:hover {
+      background: rgba(255, 255, 255, 0.12);
+      color: var(--text-main);
+    }
+
+    pre {
+      padding: 16px;
+      overflow-x: auto;
+      font-family: var(--font-mono);
+      font-size: 0.84rem;
+      line-height: 1.65;
+      color: #e2e8f0;
+    }
+
+    /* Tables */
+    .table-wrap {
+      overflow-x: auto;
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.88rem;
+    }
+
+    th {
+      background: rgba(255, 255, 255, 0.03);
+      padding: 14px 18px;
+      font-weight: 700;
+      color: var(--text-main);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    td {
+      padding: 14px 18px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+      color: var(--text-muted);
+    }
+
+    tr:last-child td { border-bottom: none; }
+
+    tr:hover td {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    .file-tag {
+      font-family: var(--font-mono);
+      font-size: 0.82rem;
+      color: #38bdf8;
+      background: rgba(56, 189, 248, 0.1);
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+
+    /* Toast Notification */
+    #toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: #10b981;
+      color: white;
+      padding: 12px 20px;
+      border-radius: var(--radius-sm);
+      font-size: 0.85rem;
+      font-weight: 600;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+      transform: translateY(100px);
+      opacity: 0;
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      z-index: 1000;
+    }
+
+    #toast.show {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Navigation -->
+  <header>
+    <div class="header-container">
+      <a href="#" class="brand">
+        <div class="brand-logo">AE</div>
+        <div class="brand-text">
+          <h1>AliExpress Dropshipping Integration</h1>
+          <p>Get Item by ID API &amp; OAuth 2.0 Engine</p>
+        </div>
+      </a>
+      <div class="header-badges">
+        <span class="badge badge-success badge-pulse">OAuth Connected: pk1329062713bfar</span>
+        <span class="badge">App Key: 544062</span>
+        <span class="badge">13/13 Vitest Passed</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="container">
+
+    <!-- Hero Banner -->
+    <section class="hero">
+      <span class="hero-tag">Official Integration Walkthrough</span>
+      <h2>AliExpress Get Item by ID &amp; OAuth 2.0 Engine</h2>
+      <p>
+        A production-grade TypeScript integration connecting your dropshipping application directly to the AliExpress Open Platform (AE-Dropshipper). Features automated OAuth token acquisition, HMAC-SHA256 request signing, proactive token refresh, and complete response normalization.
+      </p>
+
+      <div class="hero-stats">
+        <div class="stat-card">
+          <div class="stat-label">Live Test Product</div>
+          <div class="stat-value">1005007879054168</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">Available Inventory</div>
+          <div class="stat-value">619 Units</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">SKU Variations</div>
+          <div class="stat-value">56 SKUs</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">Live Gateway</div>
+          <div class="stat-value" style="color: #38bdf8;">api-sg.aliexpress.com</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Navigation Tabs -->
+    <nav class="tabs-nav">
+      <button class="tab-btn active" onclick="switchTab('product')">📦 Live Product Showcase</button>
+      <button class="tab-btn" onclick="switchTab('oauth')">🔐 OAuth 2.0 &amp; Signing Architecture</button>
+      <button class="tab-btn" onclick="switchTab('codebase')">⚡ Codebase &amp; Architecture</button>
+      <button class="tab-btn" onclick="switchTab('guide')">🚀 Setup &amp; CLI Commands</button>
+      <button class="tab-btn" onclick="switchTab('tests')">🧪 Verification &amp; Test Proof</button>
+    </nav>
+
+    <!-- TAB 1: Live Product Showcase -->
+    <section id="tab-product" class="tab-content active">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <span>✨ Live Product Data: Women's Pajamas Set (ID: 1005007879054168)</span>
+          </div>
+          <a href="https://www.aliexpress.com/item/1005007879054168.html" target="_blank" class="badge" style="color: var(--accent-coral); text-decoration: none;">
+            View on AliExpress ↗
+          </a>
+        </div>
+
+        <div class="product-showcase">
+          <!-- Gallery -->
+          <div class="gallery-container">
+            <div class="main-image-wrap">
+              <img id="mainImg" src="https://ae01.alicdn.com/kf/Se481309d2d92424b9f0a79bc6e7326d11.jpg" alt="AliExpress Product Photo">
+            </div>
+            <div class="thumbnails">
+              <button class="thumb-btn active" onclick="changeImage(this, 'https://ae01.alicdn.com/kf/Se481309d2d92424b9f0a79bc6e7326d11.jpg')">
+                <img src="https://ae01.alicdn.com/kf/Se481309d2d92424b9f0a79bc6e7326d11.jpg">
+              </button>
+              <button class="thumb-btn" onclick="changeImage(this, 'https://ae01.alicdn.com/kf/Sed63e0b77ba542c3ab7177b20f83c894l.jpg')">
+                <img src="https://ae01.alicdn.com/kf/Sed63e0b77ba542c3ab7177b20f83c894l.jpg">
+              </button>
+              <button class="thumb-btn" onclick="changeImage(this, 'https://ae01.alicdn.com/kf/S3510153816c54ffda18b39229d0f8da0C.jpg')">
+                <img src="https://ae01.alicdn.com/kf/S3510153816c54ffda18b39229d0f8da0C.jpg">
+              </button>
+              <button class="thumb-btn" onclick="changeImage(this, 'https://ae01.alicdn.com/kf/S260c36d00a0c44d59c9dc439ce307e00b.jpg')">
+                <img src="https://ae01.alicdn.com/kf/S260c36d00a0c44d59c9dc439ce307e00b.jpg">
+              </button>
+              <button class="thumb-btn" onclick="changeImage(this, 'https://ae01.alicdn.com/kf/Sbc855f82ea78495ebe8dcc8e359889803.jpg')">
+                <img src="https://ae01.alicdn.com/kf/Sbc855f82ea78495ebe8dcc8e359889803.jpg">
+              </button>
+              <button class="thumb-btn" onclick="changeImage(this, 'https://ae01.alicdn.com/kf/S42d776d6dfb34edd95787d7becb7dba66.jpg')">
+                <img src="https://ae01.alicdn.com/kf/S42d776d6dfb34edd95787d7becb7dba66.jpg">
+              </button>
+            </div>
+          </div>
+
+          <!-- Info & Interactive SKU Picker -->
+          <div class="product-details">
+            <span class="product-id-tag">PRODUCT_ID: 1005007879054168</span>
+            <h3 class="product-title">Women's Pajamas Set Sleepwear 2 PCS Short Tank Tops And Shorts S M L White Ventilate Soft Casual Love Printing</h3>
+
+            <div class="price-box">
+              <span class="current-price" id="skuPrice">$5.18</span>
+              <span class="original-price" id="skuOrigPrice">$16.19</span>
+              <span class="discount-badge" id="skuDiscount">68% OFF</span>
+            </div>
+
+            <!-- SKU Variant Selector -->
+            <div class="sku-selector-group">
+              <span class="sku-label">Color Variant:</span>
+              <div class="sku-options">
+                <button class="sku-btn active" onclick="selectColor(this, 'pink', 5.18, 16.19, 2, 'https://ae01.alicdn.com/kf/Sfc579e8c50ac4db6af256ee824d15ad5M.jpg')">
+                  <img src="https://ae01.alicdn.com/kf/Sfc579e8c50ac4db6af256ee824d15ad5M.jpg" class="sku-thumb">
+                  Pink
+                </button>
+                <button class="sku-btn" onclick="selectColor(this, 'blue', 5.01, 15.80, 61, 'https://ae01.alicdn.com/kf/S3510153816c54ffda18b39229d0f8da0C.jpg')">
+                  <img src="https://ae01.alicdn.com/kf/S3510153816c54ffda18b39229d0f8da0C.jpg" class="sku-thumb">
+                  Blue
+                </button>
+                <button class="sku-btn" onclick="selectColor(this, '2pcs black', 9.80, 21.50, 5, 'https://ae01.alicdn.com/kf/S260c36d00a0c44d59c9dc439ce307e00b.jpg')">
+                  <img src="https://ae01.alicdn.com/kf/S260c36d00a0c44d59c9dc439ce307e00b.jpg" class="sku-thumb">
+                  2PCS Black
+                </button>
+              </div>
+            </div>
+
+            <div class="sku-selector-group">
+              <span class="sku-label">Size:</span>
+              <div class="sku-options">
+                <button class="sku-btn active" onclick="selectSize(this)">S</button>
+                <button class="sku-btn" onclick="selectSize(this)">M</button>
+                <button class="sku-btn" onclick="selectSize(this)">L</button>
+                <button class="sku-btn" onclick="selectSize(this)">XL</button>
+              </div>
+            </div>
+
+            <!-- Product Metadata -->
+            <div class="meta-grid">
+              <div class="meta-item">
+                <span class="meta-k">Stock on Selected</span>
+                <span class="meta-v" id="skuStock" style="color: #34d399;">2 Available</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-k">Total Inventory</span>
+                <span class="meta-v">619 units</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-k">Customer Rating</span>
+                <span class="meta-v" style="color: #fbbf24;">4.6 ★ (10,085)</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-k">Est. Delivery</span>
+                <span class="meta-v">7 Days to US</span>
+              </div>
+            </div>
+
+            <div style="font-size: 0.85rem; color: var(--text-dim);">
+              💾 Saved locally in: <code style="color: var(--accent-cyan);">data/sample-product-1005007879054168.json</code> (190 KB)
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 2: OAuth 2.0 & Signer Architecture -->
+    <section id="tab-oauth" class="tab-content">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">🔐 AliExpress OAuth 2.0 &amp; Singapore Gateway Architecture</div>
+          <span class="badge badge-success">Gateway: api-sg.aliexpress.com</span>
+        </div>
+        <p style="color: var(--text-muted); margin-bottom: 20px;">
+          Global AliExpress Open Platform applications operate via the Singapore gateway (<code>api-sg.aliexpress.com</code>), distinct from the legacy domestic Taobao gateway. The application handles the full token lifecycle automatically.
+        </p>
+
+        <div class="flow-steps">
+          <div class="flow-step">
+            <div class="step-number">1</div>
+            <h4>OAuth Authorization URL</h4>
+            <p>Directs user to <code>https://api-sg.aliexpress.com/oauth/authorize</code> with <code>client_id</code>, <code>redirect_uri</code>, and <code>response_type=code</code>.</p>
+          </div>
+
+          <div class="flow-step">
+            <div class="step-number">2</div>
+            <h4>Authorization Code Redirect</h4>
+            <p>User logs in and AliExpress redirects to your configured callback URI with a temporary authorization <code>code</code> parameter.</p>
+          </div>
+
+          <div class="flow-step">
+            <div class="step-number">3</div>
+            <h4>Cryptographic Token Exchange</h4>
+            <p>Backend signs a <code>POST /auth/token/create</code> request with HMAC-SHA256, exchanging the code for an <code>access_token</code> and <code>refresh_token</code>.</p>
+          </div>
+
+          <div class="flow-step">
+            <div class="step-number">4</div>
+            <h4>Auto-Refresh &amp; Persistence</h4>
+            <p>Tokens are saved in <code>.token.json</code>. Subsequent requests check expiration and automatically renew tokens before they expire via <code>/auth/token/refresh</code>.</p>
+          </div>
+        </div>
+
+        <div class="code-box" style="margin-top: 24px;">
+          <div class="code-header">
+            <span>HMAC-SHA256 Cryptographic Signing Algorithm (src/core/signer.ts)</span>
+            <button class="copy-btn" onclick="copyCode('signer-code')">Copy</button>
+          </div>
+          <pre id="signer-code">export function generateAliExpressSignature({ appSecret, apiName, params }: SignOptions): string {
+  // 1. Exclude 'sign' and null/undefined values
+  const validEntries = Object.entries(params).filter(
+    ([key, val]) => key !== "sign" &amp;&amp; val !== undefined &amp;&amp; val !== null
+  );
+
+  // 2. Sort parameter keys in ascending ASCII order
+  validEntries.sort(([a], [b]) => (a &lt; b ? -1 : a &gt; b ? 1 : 0));
+
+  // 3. Prepend REST path if applicable (/auth/token/create)
+  let baseString = apiName.includes("/") ? apiName : "";
+  for (const [key, val] of validEntries) {
+    baseString += `${key}${String(val)}`;
+  }
+
+  // 4. Compute HMAC-SHA256 uppercase hexadecimal digest
+  return crypto.createHmac("sha256", appSecret)
+    .update(baseString, "utf8")
+    .digest("hex")
+    .toUpperCase();
+}</pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 3: Codebase & Architecture -->
+    <section id="tab-codebase" class="tab-content">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">⚡ Project Architecture &amp; File Map</div>
+          <span class="badge">Modular Layered Architecture</span>
+        </div>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Component / File</th>
+                <th>Layer</th>
+                <th>Responsibility</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="file-tag">src/services/aliexpress-product.service.ts</span></td>
+                <td>Service Layer</td>
+                <td>Constructs <code>aliexpress.ds.product.get</code> calls, parses variations, calculates stock and price ranges, and normalizes output.</td>
+              </tr>
+              <tr>
+                <td><span class="file-tag">src/services/aliexpress-auth.service.ts</span></td>
+                <td>Service Layer</td>
+                <td>Generates OAuth links, executes <code>/auth/token/create</code> and <code>/auth/token/refresh</code>, and automatically provides valid tokens.</td>
+              </tr>
+              <tr>
+                <td><span class="file-tag">src/core/signer.ts</span></td>
+                <td>Core / Security</td>
+                <td>Implements official AliExpress HMAC-SHA256 signature generator for IOP REST and TOP API protocols.</td>
+              </tr>
+              <tr>
+                <td><span class="file-tag">src/core/token-store.ts</span></td>
+                <td>Core / Storage</td>
+                <td>Thread-safe, file-backed storage (<code>.token.json</code>) managing access and refresh tokens with expiration buffers.</td>
+              </tr>
+              <tr>
+                <td><span class="file-tag">src/core/http-client.ts</span></td>
+                <td>Core / Network</td>
+                <td>Resilient HTTP client with automatic request signing, timeout protection, sanitized parameter logging, and error mapping.</td>
+              </tr>
+              <tr>
+                <td><span class="file-tag">src/controllers/product.controller.ts</span></td>
+                <td>HTTP / Web</td>
+                <td>Handles <code>GET /api/aliexpress/items/:id</code> and <code>GET /api/aliexpress/items/preview/sample</code>.</td>
+              </tr>
+              <tr>
+                <td><span class="file-tag">src/controllers/auth.controller.ts</span></td>
+                <td>HTTP / Web</td>
+                <td>Handles <code>/api/aliexpress/auth/url</code>, OAuth redirect <code>/callback</code>, and manual <code>/refresh</code>.</td>
+              </tr>
+              <tr>
+                <td><span class="file-tag">src/cli.ts</span></td>
+                <td>CLI Interface</td>
+                <td>CLI utility supporting <code>get-item</code>, <code>auth-url</code>, <code>exchange</code>, <code>refresh</code>, <code>preview</code>, and <code>status</code>.</td>
+              </tr>
+              <tr>
+                <td><span class="file-tag">data/sample-product-1005007879054168.json</span></td>
+                <td>Data Store</td>
+                <td>Complete stored sample product containing both raw and normalized responses for instant offline preview.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 4: Setup & CLI Commands -->
+    <section id="tab-guide" class="tab-content">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">🚀 Executable Setup &amp; Command Guide</div>
+          <span class="badge badge-success">Production Verified</span>
+        </div>
+
+        <h4 style="margin-bottom: 12px; color: var(--text-main);">1. Configuration (.env)</h4>
+        <div class="code-box">
+          <div class="code-header">
+            <span>.env</span>
+            <button class="copy-btn" onclick="copyCode('env-sample')">Copy</button>
+          </div>
+          <pre id="env-sample">ALIEXPRESS_APP_KEY=544062
+ALIEXPRESS_APP_SECRET=fGKiZHkfgJgnJAPgEPpzh1AgsPH2UaAf
+ALIEXPRESS_REDIRECT_URI=https://antitrust-craftsman-research.ngrok-free.dev/api/aliexpress/auth/callback
+PORT=3000</pre>
+        </div>
+
+        <h4 style="margin: 24px 0 12px; color: var(--text-main);">2. Common CLI Commands</h4>
+        <div class="code-box">
+          <div class="code-header">
+            <span>Terminal</span>
+            <button class="copy-btn" onclick="copyCode('cli-commands')">Copy</button>
+          </div>
+          <pre id="cli-commands"># Fetch real item details by product ID
+npm run get-item 1005007879054168 -- --country US --currency USD
+
+# Preview the locally saved sample product (Offline)
+npm run cli preview
+
+# Check current token status and account info
+npm run cli status
+
+# Generate OAuth authorization link
+npm run auth:url
+
+# Start Express development server
+npm run dev
+
+# Run test suite
+npm test</pre>
+        </div>
+
+        <h4 style="margin: 24px 0 12px; color: var(--text-main);">3. REST API Endpoints</h4>
+        <div class="code-box">
+          <div class="code-header">
+            <span>cURL Examples</span>
+            <button class="copy-btn" onclick="copyCode('curl-commands')">Copy</button>
+          </div>
+          <pre id="curl-commands"># Get product details by ID (Live API call)
+curl "http://localhost:3000/api/aliexpress/items/1005007879054168?shipToCountry=US&amp;currency=USD"
+
+# Get sample preview product (Instant / Offline)
+curl "http://localhost:3000/api/aliexpress/items/preview/sample"
+
+# Check token status
+curl "http://localhost:3000/api/aliexpress/auth/status"
+
+# Health check
+curl "http://localhost:3000/api/health"</pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 5: Verification & Tests -->
+    <section id="tab-tests" class="tab-content">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">🧪 Vitest Automated Test Suite Results</div>
+          <span class="badge badge-success">13 / 13 Passed (100%)</span>
+        </div>
+
+        <div class="code-box">
+          <div class="code-header">
+            <span>vitest run output</span>
+          </div>
+          <pre style="color: #34d399;"> ✓ tests/signer.test.ts (6 tests)
+    ✓ should sort parameters in ASCII alphabetical order and concatenate key+value
+    ✓ should prepend REST api path when apiName contains '/'
+    ✓ should not prepend apiName when apiName does not contain '/' (TOP API)
+    ✓ should ignore null and undefined values and exclude 'sign'
+    ✓ should generate a valid uppercase hexadecimal HMAC-SHA256 signature
+    ✓ should throw an error if appSecret is missing
+
+ ✓ tests/auth.service.test.ts (4 tests)
+    ✓ should generate the correct AliExpress OAuth 2.0 authorization URL
+    ✓ should exchange authorization code for tokens and store them
+    ✓ should refresh an expired token automatically via getValidAccessToken
+    ✓ should throw a clear error when no access token exists
+
+ ✓ tests/product.service.test.ts (3 tests)
+    ✓ should reject non-numeric product IDs
+    ✓ should successfully fetch and normalize a raw AliExpress product response
+    ✓ should handle AliExpress API error responses gracefully
+
+ Test Files  3 passed (3)
+      Tests  13 passed (13)</pre>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div id="toast">Copied to clipboard!</div>
+
+  <script>
+    function switchTab(tabId) {
+      document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+      document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+      
+      const targetContent = document.getElementById('tab-' + tabId);
+      if (targetContent) targetContent.classList.add('active');
+      
+      event.currentTarget.classList.add('active');
+    }
+
+    function changeImage(btn, src) {
+      document.querySelectorAll('.thumb-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      document.getElementById('mainImg').src = src;
+    }
+
+    function selectColor(btn, color, price, origPrice, stock, imgSrc) {
+      btn.parentElement.querySelectorAll('.sku-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      
+      document.getElementById('skuPrice').textContent = '$' + price.toFixed(2);
+      document.getElementById('skuOrigPrice').textContent = '$' + origPrice.toFixed(2);
+      document.getElementById('skuStock').textContent = stock + ' Available';
+      const discount = Math.round((1 - price / origPrice) * 100);
+      document.getElementById('skuDiscount').textContent = discount + '% OFF';
+      
+      if (imgSrc) {
+        document.getElementById('mainImg').src = imgSrc;
+      }
+    }
+
+    function selectSize(btn) {
+      btn.parentElement.querySelectorAll('.sku-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    }
+
+    function copyCode(elementId) {
+      const code = document.getElementById(elementId).innerText;
+      navigator.clipboard.writeText(code).then(() => {
+        showToast("Copied to clipboard!");
+      });
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById('toast');
+      toast.innerText = msg;
+      toast.classList.add('show');
+      setTimeout(() => {
+        toast.classList.remove('show');
+      }, 2500);
+    }
+  </script>
+</body>
+</html>

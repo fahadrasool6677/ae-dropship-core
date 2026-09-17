@@ -1,0 +1,4784 @@
+{
+  "itemUrl": "https://www.aliexpress.com/item/1005007879054168.html",
+  "productId": "1005007879054168",
+  "fetchedAt": "2026-09-17T19:22:32.687Z",
+  "shipToCountry": "US",
+  "currency": "USD",
+  "normalized": {
+    "productId": "1005007879054168",
+    "title": "Women's Pajamas Set Sleepwear 2 PCS Short Tank Tops And Shorts S M L White Ventilate Soft Casual Love Printing",
+    "categoryId": 200001904,
+    "status": "onSelling",
+    "currency": "CNY",
+    "priceRange": {
+      "minOriginalPrice": 13.33,
+      "maxOriginalPrice": 23.26,
+      "minSalePrice": 4.13,
+      "maxSalePrice": 10.93
+    },
+    "totalStock": 619,
+    "images": [
+      "https://ae01.alicdn.com/kf/Se481309d2d92424b9f0a79bc6e7326d11.jpg",
+      "https://ae01.alicdn.com/kf/Sed63e0b77ba542c3ab7177b20f83c894l.jpg",
+      "https://ae01.alicdn.com/kf/S3510153816c54ffda18b39229d0f8da0C.jpg",
+      "https://ae01.alicdn.com/kf/S260c36d00a0c44d59c9dc439ce307e00b.jpg",
+      "https://ae01.alicdn.com/kf/Sbc855f82ea78495ebe8dcc8e359889803.jpg",
+      "https://ae01.alicdn.com/kf/S42d776d6dfb34edd95787d7becb7dba66.jpg"
+    ],
+    "videos": [],
+    "attributes": [
+      {
+        "id": 2,
+        "name": "Brand Name",
+        "valueId": 201512802,
+        "value": "NONE"
+      },
+      {
+        "id": 284,
+        "name": "Gender",
+        "valueId": 494,
+        "value": "Women"
+      },
+      {
+        "id": 10,
+        "name": "Material",
+        "valueId": 48,
+        "value": "POLYESTER"
+      },
+      {
+        "id": 10,
+        "name": "Material",
+        "valueId": 100019017,
+        "value": "Elastane"
+      },
+      {
+        "id": 200000457,
+        "name": "Collar",
+        "valueId": 8322,
+        "value": "Spaghetti Strap"
+      },
+      {
+        "id": 380,
+        "name": "Length",
+        "valueId": 200005669,
+        "value": "Shorts"
+      },
+      {
+        "id": 6,
+        "name": "Type",
+        "valueId": 1914,
+        "value": "Shorts"
+      },
+      {
+        "id": 6,
+        "name": "Type",
+        "valueId": 200002178,
+        "value": "Pajamas"
+      },
+      {
+        "id": 400000603,
+        "name": "High-concerned chemical",
+        "valueId": 23399591357,
+        "value": "none"
+      },
+      {
+        "id": 200000329,
+        "name": "Pattern Type",
+        "valueId": 200001255,
+        "value": "Geometric"
+      },
+      {
+        "id": 326,
+        "name": "Style",
+        "valueId": 200000890,
+        "value": "sexy"
+      },
+      {
+        "id": 219,
+        "name": "Origin",
+        "valueId": 9441741844,
+        "value": "Mainland China"
+      },
+      {
+        "id": 266081643,
+        "name": "CN",
+        "valueId": 100015190,
+        "value": "Guangdong"
+      },
+      {
+        "id": 100007732,
+        "name": "Sleeve Length(cm)",
+        "valueId": 1874,
+        "value": "Sleeveless"
+      },
+      {
+        "id": 281,
+        "name": "Season",
+        "valueId": 1870,
+        "value": "summer"
+      },
+      {
+        "id": 340863826,
+        "name": "Craft of Weaving",
+        "valueId": 4388665,
+        "value": "Knit"
+      },
+      {
+        "id": 200362261,
+        "name": "Obscene Picture",
+        "valueId": 349906,
+        "value": "No"
+      },
+      {
+        "id": 200000137,
+        "name": "Item Type",
+        "valueId": 200002178,
+        "value": "Pajamas"
+      },
+      {
+        "id": 200363261,
+        "name": "Sexually Suggestive",
+        "valueId": 349906,
+        "value": "No"
+      },
+      {
+        "id": -1,
+        "name": "Choice",
+        "value": "yes"
+      },
+      {
+        "name": "size_info",
+        "value": "{\"sizeInfoList\":[{\"length\":{\"cm\":\"84\",\"inch\":\"33.07\"},\"size\":\"S\",\"vid\":-1},{\"length\":{\"cm\":\"88\",\"inch\":\"34.65\"},\"size\":\"M\",\"vid\":-2},{\"length\":{\"cm\":\"92\",\"inch\":\"36.22\"},\"size\":\"L\",\"vid\":-3},{\"length\":{\"cm\":\"96\",\"inch\":\"37.80\"},\"size\":\"XL\",\"vid\":-4}]}"
+      }
+    ],
+    "skus": [
+      {
+        "skuId": "12000042671317957",
+        "originalPrice": 16.19,
+        "salePrice": 5.18,
+        "currency": "USD",
+        "availableStock": 2,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 1052,
+            "valueName": "pink",
+            "skuImage": "https://ae01.alicdn.com/kf/Sfc579e8c50ac4db6af256ee824d15ad5M.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 100014064,
+            "valueName": "100014064"
+          }
+        ]
+      },
+      {
+        "skuId": "12000042671317956",
+        "originalPrice": 15.65,
+        "salePrice": 5.01,
+        "currency": "USD",
+        "availableStock": 61,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 173,
+            "valueName": "blue",
+            "skuImage": "https://ae01.alicdn.com/kf/S53f782e30c9947d881562763b0cf7a95B.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 100014065,
+            "valueName": "100014065"
+          }
+        ]
+      },
+      {
+        "skuId": "12000042671317959",
+        "originalPrice": 16.98,
+        "salePrice": 5.43,
+        "currency": "USD",
+        "availableStock": 10,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 1052,
+            "valueName": "pink",
+            "skuImage": "https://ae01.alicdn.com/kf/Sfc579e8c50ac4db6af256ee824d15ad5M.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 361385,
+            "valueName": "361385"
+          }
+        ]
+      },
+      {
+        "skuId": "12000042671317958",
+        "originalPrice": 15.84,
+        "salePrice": 5.07,
+        "currency": "USD",
+        "availableStock": 95,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 1052,
+            "valueName": "pink",
+            "skuImage": "https://ae01.alicdn.com/kf/Sfc579e8c50ac4db6af256ee824d15ad5M.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 361386,
+            "valueName": "361386"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747767",
+        "originalPrice": 20.85,
+        "salePrice": 9.8,
+        "currency": "USD",
+        "availableStock": 5,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 771,
+            "valueName": "2pcs black",
+            "skuImage": "https://ae01.alicdn.com/kf/Sfb489f50021b46d0861031a293c83b29F.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 100014064,
+            "valueName": "100014064"
+          }
+        ]
+      },
+      {
+        "skuId": "12000042671317953",
+        "originalPrice": 15.86,
+        "salePrice": 5.07,
+        "currency": "USD",
+        "availableStock": 30,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 173,
+            "valueName": "blue",
+            "skuImage": "https://ae01.alicdn.com/kf/S53f782e30c9947d881562763b0cf7a95B.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 100014064,
+            "valueName": "100014064"
+          }
+        ]
+      },
+      {
+        "skuId": "12000042671317952",
+        "originalPrice": 15.38,
+        "salePrice": 4.77,
+        "currency": "USD",
+        "availableStock": 21,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 10,
+            "valueName": "red",
+            "skuImage": "https://ae01.alicdn.com/kf/S10a9c4b022de4568b7ab8a2d24609cab7.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 100014065,
+            "valueName": "100014065"
+          }
+        ]
+      },
+      {
+        "skuId": "12000042671317955",
+        "originalPrice": 16.78,
+        "salePrice": 5.37,
+        "currency": "USD",
+        "availableStock": 6,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 173,
+            "valueName": "blue",
+            "skuImage": "https://ae01.alicdn.com/kf/S53f782e30c9947d881562763b0cf7a95B.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 361385,
+            "valueName": "361385"
+          }
+        ]
+      },
+      {
+        "skuId": "12000042671317954",
+        "originalPrice": 16.5,
+        "salePrice": 5.28,
+        "currency": "USD",
+        "availableStock": 3,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 173,
+            "valueName": "blue",
+            "skuImage": "https://ae01.alicdn.com/kf/S53f782e30c9947d881562763b0cf7a95B.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 361386,
+            "valueName": "361386"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747772",
+        "originalPrice": 20.42,
+        "salePrice": 9.6,
+        "currency": "USD",
+        "availableStock": 4,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 1254,
+            "valueName": "2pcs blue",
+            "skuImage": "https://ae01.alicdn.com/kf/Sa52047655b1747fd975aeb73d4897afc0.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 361386,
+            "valueName": "361386"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747773",
+        "originalPrice": 22.33,
+        "salePrice": 10.5,
+        "currency": "USD",
+        "availableStock": 28,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 1254,
+            "valueName": "2pcs blue",
+            "skuImage": "https://ae01.alicdn.com/kf/Sa52047655b1747fd975aeb73d4897afc0.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 361385,
+            "valueName": "361385"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747774",
+        "originalPrice": 21.89,
+        "salePrice": 10.29,
+        "currency": "USD",
+        "availableStock": 24,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 1254,
+            "valueName": "2pcs blue",
+            "skuImage": "https://ae01.alicdn.com/kf/Sa52047655b1747fd975aeb73d4897afc0.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 100014065,
+            "valueName": "100014065"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747775",
+        "originalPrice": 20.52,
+        "salePrice": 9.64,
+        "currency": "USD",
+        "availableStock": 11,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 365458,
+            "valueName": "2pcs pink",
+            "skuImage": "https://ae01.alicdn.com/kf/S12021412d6a34115be4f5baef689af25J.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 100014064,
+            "valueName": "100014064"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747768",
+        "originalPrice": 21.05,
+        "salePrice": 9.9,
+        "currency": "USD",
+        "availableStock": 2,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 771,
+            "valueName": "2pcs black",
+            "skuImage": "https://ae01.alicdn.com/kf/Sfb489f50021b46d0861031a293c83b29F.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 361386,
+            "valueName": "361386"
+          }
+        ]
+      },
+      {
+        "skuId": "12000042671317960",
+        "originalPrice": 15.68,
+        "salePrice": 5.01,
+        "currency": "USD",
+        "availableStock": 14,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 1052,
+            "valueName": "pink",
+            "skuImage": "https://ae01.alicdn.com/kf/Sfc579e8c50ac4db6af256ee824d15ad5M.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 100014065,
+            "valueName": "100014065"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747769",
+        "originalPrice": 21.54,
+        "salePrice": 10.13,
+        "currency": "USD",
+        "availableStock": 20,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 771,
+            "valueName": "2pcs black",
+            "skuImage": "https://ae01.alicdn.com/kf/Sfb489f50021b46d0861031a293c83b29F.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 361385,
+            "valueName": "361385"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747770",
+        "originalPrice": 22.89,
+        "salePrice": 10.76,
+        "currency": "USD",
+        "availableStock": 4,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 771,
+            "valueName": "2pcs black",
+            "skuImage": "https://ae01.alicdn.com/kf/Sfb489f50021b46d0861031a293c83b29F.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 100014065,
+            "valueName": "100014065"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747771",
+        "originalPrice": 20.51,
+        "salePrice": 9.64,
+        "currency": "USD",
+        "availableStock": 27,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 1254,
+            "valueName": "2pcs blue",
+            "skuImage": "https://ae01.alicdn.com/kf/Sa52047655b1747fd975aeb73d4897afc0.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 100014064,
+            "valueName": "100014064"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747796",
+        "originalPrice": 21.38,
+        "salePrice": 10.05,
+        "currency": "USD",
+        "availableStock": 13,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 200004889,
+            "valueName": "blue pink",
+            "skuImage": "https://ae01.alicdn.com/kf/S764f3b843aff4287b6969d9ce05fb0dfA.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 361386,
+            "valueName": "361386"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747797",
+        "originalPrice": 21.7,
+        "salePrice": 10.2,
+        "currency": "USD",
+        "availableStock": 11,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 200004889,
+            "valueName": "blue pink",
+            "skuImage": "https://ae01.alicdn.com/kf/S764f3b843aff4287b6969d9ce05fb0dfA.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 361385,
+            "valueName": "361385"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747798",
+        "originalPrice": 21.96,
+        "salePrice": 10.32,
+        "currency": "USD",
+        "availableStock": 1,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 200004889,
+            "valueName": "blue pink",
+            "skuImage": "https://ae01.alicdn.com/kf/S764f3b843aff4287b6969d9ce05fb0dfA.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 100014065,
+            "valueName": "100014065"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747799",
+        "originalPrice": 21.55,
+        "salePrice": 10.13,
+        "currency": "USD",
+        "availableStock": 2,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 200002130,
+            "valueName": "blue red",
+            "skuImage": "https://ae01.alicdn.com/kf/Sfca722ab333545169fe56d79d9d3c2dcH.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 100014064,
+            "valueName": "100014064"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747792",
+        "originalPrice": 21.38,
+        "salePrice": 10.05,
+        "currency": "USD",
+        "availableStock": 3,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 175,
+            "valueName": "black red",
+            "skuImage": "https://ae01.alicdn.com/kf/S5c7d0e0817274eaea9db9fbf4360847bH.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 361386,
+            "valueName": "361386"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747793",
+        "originalPrice": 21.61,
+        "salePrice": 10.15,
+        "currency": "USD",
+        "availableStock": 4,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 175,
+            "valueName": "black red",
+            "skuImage": "https://ae01.alicdn.com/kf/S5c7d0e0817274eaea9db9fbf4360847bH.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 361385,
+            "valueName": "361385"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747794",
+        "originalPrice": 22.54,
+        "salePrice": 10.59,
+        "currency": "USD",
+        "availableStock": 5,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 175,
+            "valueName": "black red",
+            "skuImage": "https://ae01.alicdn.com/kf/S5c7d0e0817274eaea9db9fbf4360847bH.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 100014065,
+            "valueName": "100014065"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747795",
+        "originalPrice": 20.61,
+        "salePrice": 9.69,
+        "currency": "USD",
+        "availableStock": 6,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 200004889,
+            "valueName": "blue pink",
+            "skuImage": "https://ae01.alicdn.com/kf/S764f3b843aff4287b6969d9ce05fb0dfA.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 100014064,
+            "valueName": "100014064"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747804",
+        "originalPrice": 20.83,
+        "salePrice": 9.79,
+        "currency": "USD",
+        "availableStock": 10,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 200001438,
+            "valueName": "pink red",
+            "skuImage": "https://ae01.alicdn.com/kf/S7c0067128c4c41878d39bbf8673af28bT.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 361386,
+            "valueName": "361386"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747805",
+        "originalPrice": 22.12,
+        "salePrice": 10.4,
+        "currency": "USD",
+        "availableStock": 2,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 200001438,
+            "valueName": "pink red",
+            "skuImage": "https://ae01.alicdn.com/kf/S7c0067128c4c41878d39bbf8673af28bT.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 361385,
+            "valueName": "361385"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747806",
+        "originalPrice": 22.22,
+        "salePrice": 10.44,
+        "currency": "USD",
+        "availableStock": 3,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 200001438,
+            "valueName": "pink red",
+            "skuImage": "https://ae01.alicdn.com/kf/S7c0067128c4c41878d39bbf8673af28bT.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 100014065,
+            "valueName": "100014065"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747800",
+        "originalPrice": 21.05,
+        "salePrice": 9.89,
+        "currency": "USD",
+        "availableStock": 3,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 200002130,
+            "valueName": "blue red",
+            "skuImage": "https://ae01.alicdn.com/kf/Sfca722ab333545169fe56d79d9d3c2dcH.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 361386,
+            "valueName": "361386"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747801",
+        "originalPrice": 22.46,
+        "salePrice": 10.56,
+        "currency": "USD",
+        "availableStock": 10,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 200002130,
+            "valueName": "blue red",
+            "skuImage": "https://ae01.alicdn.com/kf/Sfca722ab333545169fe56d79d9d3c2dcH.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 361385,
+            "valueName": "361385"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747802",
+        "originalPrice": 22.18,
+        "salePrice": 10.42,
+        "currency": "USD",
+        "availableStock": 4,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 200002130,
+            "valueName": "blue red",
+            "skuImage": "https://ae01.alicdn.com/kf/Sfca722ab333545169fe56d79d9d3c2dcH.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 100014065,
+            "valueName": "100014065"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747803",
+        "originalPrice": 21.37,
+        "salePrice": 10.04,
+        "currency": "USD",
+        "availableStock": 12,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 200001438,
+            "valueName": "pink red",
+            "skuImage": "https://ae01.alicdn.com/kf/S7c0067128c4c41878d39bbf8673af28bT.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 100014064,
+            "valueName": "100014064"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747780",
+        "originalPrice": 21.9,
+        "salePrice": 10.29,
+        "currency": "USD",
+        "availableStock": 5,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 350850,
+            "valueName": "2pcs red",
+            "skuImage": "https://ae01.alicdn.com/kf/S1363b27bc97845beb328f69c9c39adacc.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 361386,
+            "valueName": "361386"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747781",
+        "originalPrice": 22.19,
+        "salePrice": 10.43,
+        "currency": "USD",
+        "availableStock": 13,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 350850,
+            "valueName": "2pcs red",
+            "skuImage": "https://ae01.alicdn.com/kf/S1363b27bc97845beb328f69c9c39adacc.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 361385,
+            "valueName": "361385"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747782",
+        "originalPrice": 23.26,
+        "salePrice": 10.93,
+        "currency": "USD",
+        "availableStock": 1,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 350850,
+            "valueName": "2pcs red",
+            "skuImage": "https://ae01.alicdn.com/kf/S1363b27bc97845beb328f69c9c39adacc.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 100014065,
+            "valueName": "100014065"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747783",
+        "originalPrice": 20.73,
+        "salePrice": 9.74,
+        "currency": "USD",
+        "availableStock": 2,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 691,
+            "valueName": "black blue",
+            "skuImage": "https://ae01.alicdn.com/kf/S7b466981e82b404a8cdaea4a354b6cfb0.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 100014064,
+            "valueName": "100014064"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747776",
+        "originalPrice": 20.71,
+        "salePrice": 9.73,
+        "currency": "USD",
+        "availableStock": 4,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 365458,
+            "valueName": "2pcs pink",
+            "skuImage": "https://ae01.alicdn.com/kf/S12021412d6a34115be4f5baef689af25J.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 361386,
+            "valueName": "361386"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747777",
+        "originalPrice": 21.28,
+        "salePrice": 10,
+        "currency": "USD",
+        "availableStock": 2,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 365458,
+            "valueName": "2pcs pink",
+            "skuImage": "https://ae01.alicdn.com/kf/S12021412d6a34115be4f5baef689af25J.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 361385,
+            "valueName": "361385"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747778",
+        "originalPrice": 22.45,
+        "salePrice": 10.55,
+        "currency": "USD",
+        "availableStock": 5,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 365458,
+            "valueName": "2pcs pink",
+            "skuImage": "https://ae01.alicdn.com/kf/S12021412d6a34115be4f5baef689af25J.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 100014065,
+            "valueName": "100014065"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747779",
+        "originalPrice": 19.19,
+        "salePrice": 8.83,
+        "currency": "USD",
+        "availableStock": 3,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 350850,
+            "valueName": "2pcs red",
+            "skuImage": "https://ae01.alicdn.com/kf/S1363b27bc97845beb328f69c9c39adacc.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 100014064,
+            "valueName": "100014064"
+          }
+        ]
+      },
+      {
+        "skuId": "12000042671317949",
+        "originalPrice": 15.47,
+        "salePrice": 4.8,
+        "currency": "USD",
+        "availableStock": 1,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 10,
+            "valueName": "red",
+            "skuImage": "https://ae01.alicdn.com/kf/S10a9c4b022de4568b7ab8a2d24609cab7.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 100014064,
+            "valueName": "100014064"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747788",
+        "originalPrice": 20.47,
+        "salePrice": 9.62,
+        "currency": "USD",
+        "availableStock": 2,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 200004890,
+            "valueName": "black pink",
+            "skuImage": "https://ae01.alicdn.com/kf/S1bb93752767042ca913c4f17d7d87b5a0.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 361386,
+            "valueName": "361386"
+          }
+        ]
+      },
+      {
+        "skuId": "12000042671317948",
+        "originalPrice": 17.24,
+        "salePrice": 5.52,
+        "currency": "USD",
+        "availableStock": 1,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 193,
+            "valueName": "black",
+            "skuImage": "https://ae01.alicdn.com/kf/Sb5ef4dc5d9f74a49a6e994cfd229db275.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 100014065,
+            "valueName": "100014065"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747789",
+        "originalPrice": 21.25,
+        "salePrice": 9.99,
+        "currency": "USD",
+        "availableStock": 3,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 200004890,
+            "valueName": "black pink",
+            "skuImage": "https://ae01.alicdn.com/kf/S1bb93752767042ca913c4f17d7d87b5a0.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 361385,
+            "valueName": "361385"
+          }
+        ]
+      },
+      {
+        "skuId": "12000042671317951",
+        "originalPrice": 15.58,
+        "salePrice": 4.83,
+        "currency": "USD",
+        "availableStock": 20,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 10,
+            "valueName": "red",
+            "skuImage": "https://ae01.alicdn.com/kf/S10a9c4b022de4568b7ab8a2d24609cab7.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 361385,
+            "valueName": "361385"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747790",
+        "originalPrice": 21.57,
+        "salePrice": 10.14,
+        "currency": "USD",
+        "availableStock": 1,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 200004890,
+            "valueName": "black pink",
+            "skuImage": "https://ae01.alicdn.com/kf/S1bb93752767042ca913c4f17d7d87b5a0.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 100014065,
+            "valueName": "100014065"
+          }
+        ]
+      },
+      {
+        "skuId": "12000042671317950",
+        "originalPrice": 13.33,
+        "salePrice": 4.13,
+        "currency": "USD",
+        "availableStock": 54,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 10,
+            "valueName": "red",
+            "skuImage": "https://ae01.alicdn.com/kf/S10a9c4b022de4568b7ab8a2d24609cab7.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 361386,
+            "valueName": "361386"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747791",
+        "originalPrice": 20.97,
+        "salePrice": 9.85,
+        "currency": "USD",
+        "availableStock": 3,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 175,
+            "valueName": "black red",
+            "skuImage": "https://ae01.alicdn.com/kf/S5c7d0e0817274eaea9db9fbf4360847bH.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 100014064,
+            "valueName": "100014064"
+          }
+        ]
+      },
+      {
+        "skuId": "12000042671317945",
+        "originalPrice": 16.69,
+        "salePrice": 5.34,
+        "currency": "USD",
+        "availableStock": 10,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 193,
+            "valueName": "black",
+            "skuImage": "https://ae01.alicdn.com/kf/Sb5ef4dc5d9f74a49a6e994cfd229db275.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 100014064,
+            "valueName": "100014064"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747784",
+        "originalPrice": 20.77,
+        "salePrice": 9.76,
+        "currency": "USD",
+        "availableStock": 5,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 691,
+            "valueName": "black blue",
+            "skuImage": "https://ae01.alicdn.com/kf/S7b466981e82b404a8cdaea4a354b6cfb0.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 361386,
+            "valueName": "361386"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747785",
+        "originalPrice": 21.58,
+        "salePrice": 10.14,
+        "currency": "USD",
+        "availableStock": 2,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 691,
+            "valueName": "black blue",
+            "skuImage": "https://ae01.alicdn.com/kf/S7b466981e82b404a8cdaea4a354b6cfb0.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 361385,
+            "valueName": "361385"
+          }
+        ]
+      },
+      {
+        "skuId": "12000042671317947",
+        "originalPrice": 16.76,
+        "salePrice": 5.36,
+        "currency": "USD",
+        "availableStock": 3,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 193,
+            "valueName": "black",
+            "skuImage": "https://ae01.alicdn.com/kf/Sb5ef4dc5d9f74a49a6e994cfd229db275.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 361385,
+            "valueName": "361385"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747786",
+        "originalPrice": 22.04,
+        "salePrice": 10.36,
+        "currency": "USD",
+        "availableStock": 15,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 691,
+            "valueName": "black blue",
+            "skuImage": "https://ae01.alicdn.com/kf/S7b466981e82b404a8cdaea4a354b6cfb0.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 100014065,
+            "valueName": "100014065"
+          }
+        ]
+      },
+      {
+        "skuId": "12000042671317946",
+        "originalPrice": 16.31,
+        "salePrice": 5.22,
+        "currency": "USD",
+        "availableStock": 4,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 193,
+            "valueName": "black",
+            "skuImage": "https://ae01.alicdn.com/kf/Sb5ef4dc5d9f74a49a6e994cfd229db275.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 361386,
+            "valueName": "361386"
+          }
+        ]
+      },
+      {
+        "skuId": "12000048661747787",
+        "originalPrice": 21.11,
+        "salePrice": 9.92,
+        "currency": "USD",
+        "availableStock": 4,
+        "properties": [
+          {
+            "propertyId": 14,
+            "propertyName": "Color",
+            "valueId": 200004890,
+            "valueName": "black pink",
+            "skuImage": "https://ae01.alicdn.com/kf/S1bb93752767042ca913c4f17d7d87b5a0.jpg"
+          },
+          {
+            "propertyId": 5,
+            "propertyName": "Size",
+            "valueId": 100014064,
+            "valueName": "100014064"
+          }
+        ]
+      }
+    ],
+    "packageInfo": {
+      "isCustomPackage": false,
+      "lengthCm": 24,
+      "widthCm": 12,
+      "heightCm": 4,
+      "weightKg": 0.12
+    },
+    "shippingInfo": {
+      "estimatedDeliveryDays": 7,
+      "shipToCountry": "US",
+      "shippingFee": 0
+    },
+    "descriptionHtml": "<p><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S71d2683275bf418e9c4a31ef680215489.jpg\" slate-data-type=\"image\"/></p><p style=\"font-family:&quot;TT Norms Pro&quot;, &quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:center;white-space:normal;color:rgb(34, 34, 34);margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"center\"><strong><span style=\"font-size:18px\"><span style=\"font-family:宋体\"><br/>Size, S, Bust: 82cm, Tops Length: 32cm ,Waist: 63cm, Hips: 98cm,  Bottoms Length: 7cm</span></span></strong></p><p style=\"font-family:&quot;TT Norms Pro&quot;, &quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:center;white-space:normal;color:rgb(34, 34, 34);margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"center\"><strong><span style=\"font-size:18px\"><span style=\"font-family:宋体\">Size, M, Bust: 86cm, Tops Length: 33cm ,Waist: 65cm, Hips: 104cm, Bottoms Length: 8cm</span></span></strong></p><p style=\"font-family:&quot;TT Norms Pro&quot;, &quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:center;white-space:normal;color:rgb(34, 34, 34);margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"center\"><strong><span style=\"font-size:18px\"><span style=\"font-family:宋体\">Size, L, Bust: 92cm,Tops Length: 34cm ,Waist: 67cm, Hips: 108cm, Bottoms Length: 8cm<br/>Size, xL, Bust: 98cm,Tops Length: 35cm ,Waist: 69cm, Hips: 112cm, Bottoms Length: 9cm</span></span></strong></p><p style=\"font-family:&quot;TT Norms Pro&quot;, &quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:center;white-space:normal;color:rgb(34, 34, 34);margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"center\"><span style=\"font-size:18px\"><span style=\"color:rgb(255, 0, 0)\"><span style=\"font-family:arial, helvetica, sans-serif\"><br/>Attention</span></span></span><span> </span><span style=\"font-size:18px\"><span style=\"font-family:arial, helvetica, sans-serif\">: ( 1 inch=2.54 cm, 1 cm=0.39 inch )<br/>Please strictly follow the size chart to select the size. Do not select directly according to your habits.<br/>This clothing size information is just for reference only, and may have 2-3cm differences due to manual measurement.<br/>Item color displayed in photos may be showing slightly different on your computer monitor since monitors are not</span></span><span style=\"font-size:18px\"><span style=\"font-family:arial, helvetica, sans-serif\"><span> </span></span></span><span style=\"font-size:18px\"><span style=\"background-color:rgb(255, 255, 255)\"><span style=\"color:rgb(0, 0, 0)\"><span style=\"font-family:arial, helvetica, sans-serif\">calibrated same.</span></span></span></span><br/></p><p style=\"font-family:&quot;TT Norms Pro&quot;, &quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:center;white-space:normal;color:rgb(34, 34, 34);margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"center\"><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S777148c6cf6241d094cf5652fc8da9c9Q.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S71cdde43ff23426eaa1651bf81a79465l.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S0af1ebff6c474cd9af710e4bbde2d3c3Y.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sa8d991051a5d40289843104144a51710W.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sbef4c1540e2c4a6897fb34240b74585an.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S14c97b00c5eb493ebdf42e4d095c398af.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S567009da65494bd39dfe4b47b02ad6c9y.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S53f782e30c9947d881562763b0cf7a95B.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S42d776d6dfb34edd95787d7becb7dba66.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S9180dd6fe667476ba0549d11ecea694cn.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S260c36d00a0c44d59c9dc439ce307e00b.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sf6a3727389284a76963061bad6376760T.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sbc855f82ea78495ebe8dcc8e359889803.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S3510153816c54ffda18b39229d0f8da0C.jpg\" slate-data-type=\"image\"/></p>",
+    "rating": {
+      "averageRating": 4.6,
+      "totalReviews": 10085
+    },
+    "rawResponse": {
+      "result": {
+        "ae_item_sku_info_dtos": [
+          {
+            "sku_attr": "5:100014064;14:1052#pink",
+            "offer_sale_price": "5.18",
+            "sku_id": "12000042671317957",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "16.19",
+            "offer_bulk_sale_price": "5.18",
+            "sku_available_stock": 2,
+            "id": "5:100014064;14:1052#pink",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "Pink",
+                "sku_image": "https://ae01.alicdn.com/kf/Sfc579e8c50ac4db6af256ee824d15ad5M.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "pink",
+                "property_value_id": 1052,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "S",
+                "sku_property_name": "Size",
+                "property_value_id": 100014064,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:100014065;14:173#blue",
+            "offer_sale_price": "5.01",
+            "sku_id": "12000042671317956",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "15.65",
+            "offer_bulk_sale_price": "5.01",
+            "sku_available_stock": 61,
+            "id": "5:100014065;14:173#blue",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "Blue",
+                "sku_image": "https://ae01.alicdn.com/kf/S53f782e30c9947d881562763b0cf7a95B.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "blue",
+                "property_value_id": 173,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "XL",
+                "sku_property_name": "Size",
+                "property_value_id": 100014065,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:361385;14:1052#pink",
+            "offer_sale_price": "5.43",
+            "sku_id": "12000042671317959",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "16.98",
+            "offer_bulk_sale_price": "5.43",
+            "sku_available_stock": 10,
+            "id": "5:361385;14:1052#pink",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "Pink",
+                "sku_image": "https://ae01.alicdn.com/kf/Sfc579e8c50ac4db6af256ee824d15ad5M.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "pink",
+                "property_value_id": 1052,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "L",
+                "sku_property_name": "Size",
+                "property_value_id": 361385,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:361386;14:1052#pink",
+            "offer_sale_price": "5.07",
+            "sku_id": "12000042671317958",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "15.84",
+            "offer_bulk_sale_price": "5.07",
+            "sku_available_stock": 95,
+            "id": "5:361386;14:1052#pink",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "Pink",
+                "sku_image": "https://ae01.alicdn.com/kf/Sfc579e8c50ac4db6af256ee824d15ad5M.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "pink",
+                "property_value_id": 1052,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "M",
+                "sku_property_name": "Size",
+                "property_value_id": 361386,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:100014064;14:771#2pcs black",
+            "offer_sale_price": "9.80",
+            "sku_id": "12000048661747767",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "20.85",
+            "offer_bulk_sale_price": "9.80",
+            "sku_available_stock": 5,
+            "id": "5:100014064;14:771#2pcs black",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "Beige",
+                "sku_image": "https://ae01.alicdn.com/kf/Sfb489f50021b46d0861031a293c83b29F.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "2pcs black",
+                "property_value_id": 771,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "S",
+                "sku_property_name": "Size",
+                "property_value_id": 100014064,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:100014064;14:173#blue",
+            "offer_sale_price": "5.07",
+            "sku_id": "12000042671317953",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "15.86",
+            "offer_bulk_sale_price": "5.07",
+            "sku_available_stock": 30,
+            "id": "5:100014064;14:173#blue",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "Blue",
+                "sku_image": "https://ae01.alicdn.com/kf/S53f782e30c9947d881562763b0cf7a95B.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "blue",
+                "property_value_id": 173,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "S",
+                "sku_property_name": "Size",
+                "property_value_id": 100014064,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:100014065;14:10#red",
+            "offer_sale_price": "4.77",
+            "sku_id": "12000042671317952",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "15.38",
+            "offer_bulk_sale_price": "4.77",
+            "sku_available_stock": 21,
+            "id": "5:100014065;14:10#red",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "Red",
+                "sku_image": "https://ae01.alicdn.com/kf/S10a9c4b022de4568b7ab8a2d24609cab7.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "red",
+                "property_value_id": 10,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "XL",
+                "sku_property_name": "Size",
+                "property_value_id": 100014065,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:361385;14:173#blue",
+            "offer_sale_price": "5.37",
+            "sku_id": "12000042671317955",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "16.78",
+            "offer_bulk_sale_price": "5.37",
+            "sku_available_stock": 6,
+            "id": "5:361385;14:173#blue",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "Blue",
+                "sku_image": "https://ae01.alicdn.com/kf/S53f782e30c9947d881562763b0cf7a95B.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "blue",
+                "property_value_id": 173,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "L",
+                "sku_property_name": "Size",
+                "property_value_id": 361385,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:361386;14:173#blue",
+            "offer_sale_price": "5.28",
+            "sku_id": "12000042671317954",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "16.50",
+            "offer_bulk_sale_price": "5.28",
+            "sku_available_stock": 3,
+            "id": "5:361386;14:173#blue",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "Blue",
+                "sku_image": "https://ae01.alicdn.com/kf/S53f782e30c9947d881562763b0cf7a95B.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "blue",
+                "property_value_id": 173,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "M",
+                "sku_property_name": "Size",
+                "property_value_id": 361386,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:361386;14:1254#2pcs blue",
+            "offer_sale_price": "9.60",
+            "sku_id": "12000048661747772",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "20.42",
+            "offer_bulk_sale_price": "9.60",
+            "sku_available_stock": 4,
+            "id": "5:361386;14:1254#2pcs blue",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "SKY BLUE",
+                "sku_image": "https://ae01.alicdn.com/kf/Sa52047655b1747fd975aeb73d4897afc0.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "2pcs blue",
+                "property_value_id": 1254,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "M",
+                "sku_property_name": "Size",
+                "property_value_id": 361386,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:361385;14:1254#2pcs blue",
+            "offer_sale_price": "10.50",
+            "sku_id": "12000048661747773",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "22.33",
+            "offer_bulk_sale_price": "10.50",
+            "sku_available_stock": 28,
+            "id": "5:361385;14:1254#2pcs blue",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "SKY BLUE",
+                "sku_image": "https://ae01.alicdn.com/kf/Sa52047655b1747fd975aeb73d4897afc0.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "2pcs blue",
+                "property_value_id": 1254,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "L",
+                "sku_property_name": "Size",
+                "property_value_id": 361385,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:100014065;14:1254#2pcs blue",
+            "offer_sale_price": "10.29",
+            "sku_id": "12000048661747774",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "21.89",
+            "offer_bulk_sale_price": "10.29",
+            "sku_available_stock": 24,
+            "id": "5:100014065;14:1254#2pcs blue",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "SKY BLUE",
+                "sku_image": "https://ae01.alicdn.com/kf/Sa52047655b1747fd975aeb73d4897afc0.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "2pcs blue",
+                "property_value_id": 1254,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "XL",
+                "sku_property_name": "Size",
+                "property_value_id": 100014065,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:100014064;14:365458#2pcs pink",
+            "offer_sale_price": "9.64",
+            "sku_id": "12000048661747775",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "20.52",
+            "offer_bulk_sale_price": "9.64",
+            "sku_available_stock": 11,
+            "id": "5:100014064;14:365458#2pcs pink",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "Brown",
+                "sku_image": "https://ae01.alicdn.com/kf/S12021412d6a34115be4f5baef689af25J.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "2pcs pink",
+                "property_value_id": 365458,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "S",
+                "sku_property_name": "Size",
+                "property_value_id": 100014064,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:361386;14:771#2pcs black",
+            "offer_sale_price": "9.90",
+            "sku_id": "12000048661747768",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "21.05",
+            "offer_bulk_sale_price": "9.90",
+            "sku_available_stock": 2,
+            "id": "5:361386;14:771#2pcs black",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "Beige",
+                "sku_image": "https://ae01.alicdn.com/kf/Sfb489f50021b46d0861031a293c83b29F.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "2pcs black",
+                "property_value_id": 771,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "M",
+                "sku_property_name": "Size",
+                "property_value_id": 361386,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:100014065;14:1052#pink",
+            "offer_sale_price": "5.01",
+            "sku_id": "12000042671317960",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "15.68",
+            "offer_bulk_sale_price": "5.01",
+            "sku_available_stock": 14,
+            "id": "5:100014065;14:1052#pink",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "Pink",
+                "sku_image": "https://ae01.alicdn.com/kf/Sfc579e8c50ac4db6af256ee824d15ad5M.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "pink",
+                "property_value_id": 1052,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "XL",
+                "sku_property_name": "Size",
+                "property_value_id": 100014065,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:361385;14:771#2pcs black",
+            "offer_sale_price": "10.13",
+            "sku_id": "12000048661747769",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "21.54",
+            "offer_bulk_sale_price": "10.13",
+            "sku_available_stock": 20,
+            "id": "5:361385;14:771#2pcs black",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "Beige",
+                "sku_image": "https://ae01.alicdn.com/kf/Sfb489f50021b46d0861031a293c83b29F.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "2pcs black",
+                "property_value_id": 771,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "L",
+                "sku_property_name": "Size",
+                "property_value_id": 361385,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:100014065;14:771#2pcs black",
+            "offer_sale_price": "10.76",
+            "sku_id": "12000048661747770",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "22.89",
+            "offer_bulk_sale_price": "10.76",
+            "sku_available_stock": 4,
+            "id": "5:100014065;14:771#2pcs black",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "Beige",
+                "sku_image": "https://ae01.alicdn.com/kf/Sfb489f50021b46d0861031a293c83b29F.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "2pcs black",
+                "property_value_id": 771,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "XL",
+                "sku_property_name": "Size",
+                "property_value_id": 100014065,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:100014064;14:1254#2pcs blue",
+            "offer_sale_price": "9.64",
+            "sku_id": "12000048661747771",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "20.51",
+            "offer_bulk_sale_price": "9.64",
+            "sku_available_stock": 27,
+            "id": "5:100014064;14:1254#2pcs blue",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "SKY BLUE",
+                "sku_image": "https://ae01.alicdn.com/kf/Sa52047655b1747fd975aeb73d4897afc0.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "2pcs blue",
+                "property_value_id": 1254,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "S",
+                "sku_property_name": "Size",
+                "property_value_id": 100014064,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:361386;14:200004889#blue pink",
+            "offer_sale_price": "10.05",
+            "sku_id": "12000048661747796",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "21.38",
+            "offer_bulk_sale_price": "10.05",
+            "sku_available_stock": 13,
+            "id": "5:361386;14:200004889#blue pink",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "army green",
+                "sku_image": "https://ae01.alicdn.com/kf/S764f3b843aff4287b6969d9ce05fb0dfA.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "blue pink",
+                "property_value_id": 200004889,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "M",
+                "sku_property_name": "Size",
+                "property_value_id": 361386,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:361385;14:200004889#blue pink",
+            "offer_sale_price": "10.20",
+            "sku_id": "12000048661747797",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "21.70",
+            "offer_bulk_sale_price": "10.20",
+            "sku_available_stock": 11,
+            "id": "5:361385;14:200004889#blue pink",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "army green",
+                "sku_image": "https://ae01.alicdn.com/kf/S764f3b843aff4287b6969d9ce05fb0dfA.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "blue pink",
+                "property_value_id": 200004889,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "L",
+                "sku_property_name": "Size",
+                "property_value_id": 361385,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:100014065;14:200004889#blue pink",
+            "offer_sale_price": "10.32",
+            "sku_id": "12000048661747798",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "21.96",
+            "offer_bulk_sale_price": "10.32",
+            "sku_available_stock": 1,
+            "id": "5:100014065;14:200004889#blue pink",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "army green",
+                "sku_image": "https://ae01.alicdn.com/kf/S764f3b843aff4287b6969d9ce05fb0dfA.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "blue pink",
+                "property_value_id": 200004889,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "XL",
+                "sku_property_name": "Size",
+                "property_value_id": 100014065,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:100014064;14:200002130#blue red",
+            "offer_sale_price": "10.13",
+            "sku_id": "12000048661747799",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "21.55",
+            "offer_bulk_sale_price": "10.13",
+            "sku_available_stock": 2,
+            "id": "5:100014064;14:200002130#blue red",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "Ivory",
+                "sku_image": "https://ae01.alicdn.com/kf/Sfca722ab333545169fe56d79d9d3c2dcH.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "blue red",
+                "property_value_id": 200002130,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "S",
+                "sku_property_name": "Size",
+                "property_value_id": 100014064,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:361386;14:175#black red",
+            "offer_sale_price": "10.05",
+            "sku_id": "12000048661747792",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "21.38",
+            "offer_bulk_sale_price": "10.05",
+            "sku_available_stock": 3,
+            "id": "5:361386;14:175#black red",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "green",
+                "sku_image": "https://ae01.alicdn.com/kf/S5c7d0e0817274eaea9db9fbf4360847bH.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "black red",
+                "property_value_id": 175,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "M",
+                "sku_property_name": "Size",
+                "property_value_id": 361386,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:361385;14:175#black red",
+            "offer_sale_price": "10.15",
+            "sku_id": "12000048661747793",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "21.61",
+            "offer_bulk_sale_price": "10.15",
+            "sku_available_stock": 4,
+            "id": "5:361385;14:175#black red",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "green",
+                "sku_image": "https://ae01.alicdn.com/kf/S5c7d0e0817274eaea9db9fbf4360847bH.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "black red",
+                "property_value_id": 175,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "L",
+                "sku_property_name": "Size",
+                "property_value_id": 361385,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:100014065;14:175#black red",
+            "offer_sale_price": "10.59",
+            "sku_id": "12000048661747794",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "22.54",
+            "offer_bulk_sale_price": "10.59",
+            "sku_available_stock": 5,
+            "id": "5:100014065;14:175#black red",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "green",
+                "sku_image": "https://ae01.alicdn.com/kf/S5c7d0e0817274eaea9db9fbf4360847bH.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "black red",
+                "property_value_id": 175,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "XL",
+                "sku_property_name": "Size",
+                "property_value_id": 100014065,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:100014064;14:200004889#blue pink",
+            "offer_sale_price": "9.69",
+            "sku_id": "12000048661747795",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "20.61",
+            "offer_bulk_sale_price": "9.69",
+            "sku_available_stock": 6,
+            "id": "5:100014064;14:200004889#blue pink",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "army green",
+                "sku_image": "https://ae01.alicdn.com/kf/S764f3b843aff4287b6969d9ce05fb0dfA.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "blue pink",
+                "property_value_id": 200004889,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "S",
+                "sku_property_name": "Size",
+                "property_value_id": 100014064,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:361386;14:200001438#pink red",
+            "offer_sale_price": "9.79",
+            "sku_id": "12000048661747804",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "20.83",
+            "offer_bulk_sale_price": "9.79",
+            "sku_available_stock": 10,
+            "id": "5:361386;14:200001438#pink red",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "Khaki",
+                "sku_image": "https://ae01.alicdn.com/kf/S7c0067128c4c41878d39bbf8673af28bT.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "pink red",
+                "property_value_id": 200001438,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "M",
+                "sku_property_name": "Size",
+                "property_value_id": 361386,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:361385;14:200001438#pink red",
+            "offer_sale_price": "10.40",
+            "sku_id": "12000048661747805",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "22.12",
+            "offer_bulk_sale_price": "10.40",
+            "sku_available_stock": 2,
+            "id": "5:361385;14:200001438#pink red",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "Khaki",
+                "sku_image": "https://ae01.alicdn.com/kf/S7c0067128c4c41878d39bbf8673af28bT.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "pink red",
+                "property_value_id": 200001438,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "L",
+                "sku_property_name": "Size",
+                "property_value_id": 361385,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:100014065;14:200001438#pink red",
+            "offer_sale_price": "10.44",
+            "sku_id": "12000048661747806",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "22.22",
+            "offer_bulk_sale_price": "10.44",
+            "sku_available_stock": 3,
+            "id": "5:100014065;14:200001438#pink red",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "Khaki",
+                "sku_image": "https://ae01.alicdn.com/kf/S7c0067128c4c41878d39bbf8673af28bT.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "pink red",
+                "property_value_id": 200001438,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "XL",
+                "sku_property_name": "Size",
+                "property_value_id": 100014065,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:361386;14:200002130#blue red",
+            "offer_sale_price": "9.89",
+            "sku_id": "12000048661747800",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "21.05",
+            "offer_bulk_sale_price": "9.89",
+            "sku_available_stock": 3,
+            "id": "5:361386;14:200002130#blue red",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "Ivory",
+                "sku_image": "https://ae01.alicdn.com/kf/Sfca722ab333545169fe56d79d9d3c2dcH.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "blue red",
+                "property_value_id": 200002130,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "M",
+                "sku_property_name": "Size",
+                "property_value_id": 361386,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:361385;14:200002130#blue red",
+            "offer_sale_price": "10.56",
+            "sku_id": "12000048661747801",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "22.46",
+            "offer_bulk_sale_price": "10.56",
+            "sku_available_stock": 10,
+            "id": "5:361385;14:200002130#blue red",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "Ivory",
+                "sku_image": "https://ae01.alicdn.com/kf/Sfca722ab333545169fe56d79d9d3c2dcH.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "blue red",
+                "property_value_id": 200002130,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "L",
+                "sku_property_name": "Size",
+                "property_value_id": 361385,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:100014065;14:200002130#blue red",
+            "offer_sale_price": "10.42",
+            "sku_id": "12000048661747802",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "22.18",
+            "offer_bulk_sale_price": "10.42",
+            "sku_available_stock": 4,
+            "id": "5:100014065;14:200002130#blue red",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "Ivory",
+                "sku_image": "https://ae01.alicdn.com/kf/Sfca722ab333545169fe56d79d9d3c2dcH.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "blue red",
+                "property_value_id": 200002130,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "XL",
+                "sku_property_name": "Size",
+                "property_value_id": 100014065,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:100014064;14:200001438#pink red",
+            "offer_sale_price": "10.04",
+            "sku_id": "12000048661747803",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "21.37",
+            "offer_bulk_sale_price": "10.04",
+            "sku_available_stock": 12,
+            "id": "5:100014064;14:200001438#pink red",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "Khaki",
+                "sku_image": "https://ae01.alicdn.com/kf/S7c0067128c4c41878d39bbf8673af28bT.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "pink red",
+                "property_value_id": 200001438,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "S",
+                "sku_property_name": "Size",
+                "property_value_id": 100014064,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:361386;14:350850#2pcs red",
+            "offer_sale_price": "10.29",
+            "sku_id": "12000048661747780",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "21.90",
+            "offer_bulk_sale_price": "10.29",
+            "sku_available_stock": 5,
+            "id": "5:361386;14:350850#2pcs red",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "Gold",
+                "sku_image": "https://ae01.alicdn.com/kf/S1363b27bc97845beb328f69c9c39adacc.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "2pcs red",
+                "property_value_id": 350850,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "M",
+                "sku_property_name": "Size",
+                "property_value_id": 361386,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:361385;14:350850#2pcs red",
+            "offer_sale_price": "10.43",
+            "sku_id": "12000048661747781",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "22.19",
+            "offer_bulk_sale_price": "10.43",
+            "sku_available_stock": 13,
+            "id": "5:361385;14:350850#2pcs red",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "Gold",
+                "sku_image": "https://ae01.alicdn.com/kf/S1363b27bc97845beb328f69c9c39adacc.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "2pcs red",
+                "property_value_id": 350850,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "L",
+                "sku_property_name": "Size",
+                "property_value_id": 361385,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:100014065;14:350850#2pcs red",
+            "offer_sale_price": "10.93",
+            "sku_id": "12000048661747782",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "23.26",
+            "offer_bulk_sale_price": "10.93",
+            "sku_available_stock": 1,
+            "id": "5:100014065;14:350850#2pcs red",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "Gold",
+                "sku_image": "https://ae01.alicdn.com/kf/S1363b27bc97845beb328f69c9c39adacc.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "2pcs red",
+                "property_value_id": 350850,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "XL",
+                "sku_property_name": "Size",
+                "property_value_id": 100014065,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:100014064;14:691#black blue",
+            "offer_sale_price": "9.74",
+            "sku_id": "12000048661747783",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "20.73",
+            "offer_bulk_sale_price": "9.74",
+            "sku_available_stock": 2,
+            "id": "5:100014064;14:691#black blue",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "GRAY",
+                "sku_image": "https://ae01.alicdn.com/kf/S7b466981e82b404a8cdaea4a354b6cfb0.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "black blue",
+                "property_value_id": 691,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "S",
+                "sku_property_name": "Size",
+                "property_value_id": 100014064,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:361386;14:365458#2pcs pink",
+            "offer_sale_price": "9.73",
+            "sku_id": "12000048661747776",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "20.71",
+            "offer_bulk_sale_price": "9.73",
+            "sku_available_stock": 4,
+            "id": "5:361386;14:365458#2pcs pink",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "Brown",
+                "sku_image": "https://ae01.alicdn.com/kf/S12021412d6a34115be4f5baef689af25J.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "2pcs pink",
+                "property_value_id": 365458,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "M",
+                "sku_property_name": "Size",
+                "property_value_id": 361386,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:361385;14:365458#2pcs pink",
+            "offer_sale_price": "10.00",
+            "sku_id": "12000048661747777",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "21.28",
+            "offer_bulk_sale_price": "10.00",
+            "sku_available_stock": 2,
+            "id": "5:361385;14:365458#2pcs pink",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "Brown",
+                "sku_image": "https://ae01.alicdn.com/kf/S12021412d6a34115be4f5baef689af25J.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "2pcs pink",
+                "property_value_id": 365458,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "L",
+                "sku_property_name": "Size",
+                "property_value_id": 361385,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:100014065;14:365458#2pcs pink",
+            "offer_sale_price": "10.55",
+            "sku_id": "12000048661747778",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "22.45",
+            "offer_bulk_sale_price": "10.55",
+            "sku_available_stock": 5,
+            "id": "5:100014065;14:365458#2pcs pink",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "Brown",
+                "sku_image": "https://ae01.alicdn.com/kf/S12021412d6a34115be4f5baef689af25J.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "2pcs pink",
+                "property_value_id": 365458,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "XL",
+                "sku_property_name": "Size",
+                "property_value_id": 100014065,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:100014064;14:350850#2pcs red",
+            "offer_sale_price": "8.83",
+            "sku_id": "12000048661747779",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "19.19",
+            "offer_bulk_sale_price": "8.83",
+            "sku_available_stock": 3,
+            "id": "5:100014064;14:350850#2pcs red",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "Gold",
+                "sku_image": "https://ae01.alicdn.com/kf/S1363b27bc97845beb328f69c9c39adacc.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "2pcs red",
+                "property_value_id": 350850,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "S",
+                "sku_property_name": "Size",
+                "property_value_id": 100014064,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:100014064;14:10#red",
+            "offer_sale_price": "4.80",
+            "sku_id": "12000042671317949",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "15.47",
+            "offer_bulk_sale_price": "4.80",
+            "sku_available_stock": 1,
+            "id": "5:100014064;14:10#red",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "Red",
+                "sku_image": "https://ae01.alicdn.com/kf/S10a9c4b022de4568b7ab8a2d24609cab7.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "red",
+                "property_value_id": 10,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "S",
+                "sku_property_name": "Size",
+                "property_value_id": 100014064,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:361386;14:200004890#black pink",
+            "offer_sale_price": "9.62",
+            "sku_id": "12000048661747788",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "20.47",
+            "offer_bulk_sale_price": "9.62",
+            "sku_available_stock": 2,
+            "id": "5:361386;14:200004890#black pink",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "Dark Grey",
+                "sku_image": "https://ae01.alicdn.com/kf/S1bb93752767042ca913c4f17d7d87b5a0.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "black pink",
+                "property_value_id": 200004890,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "M",
+                "sku_property_name": "Size",
+                "property_value_id": 361386,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:100014065;14:193#black",
+            "offer_sale_price": "5.52",
+            "sku_id": "12000042671317948",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "17.24",
+            "offer_bulk_sale_price": "5.52",
+            "sku_available_stock": 1,
+            "id": "5:100014065;14:193#black",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "black",
+                "sku_image": "https://ae01.alicdn.com/kf/Sb5ef4dc5d9f74a49a6e994cfd229db275.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "black",
+                "property_value_id": 193,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "XL",
+                "sku_property_name": "Size",
+                "property_value_id": 100014065,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:361385;14:200004890#black pink",
+            "offer_sale_price": "9.99",
+            "sku_id": "12000048661747789",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "21.25",
+            "offer_bulk_sale_price": "9.99",
+            "sku_available_stock": 3,
+            "id": "5:361385;14:200004890#black pink",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "Dark Grey",
+                "sku_image": "https://ae01.alicdn.com/kf/S1bb93752767042ca913c4f17d7d87b5a0.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "black pink",
+                "property_value_id": 200004890,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "L",
+                "sku_property_name": "Size",
+                "property_value_id": 361385,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:361385;14:10#red",
+            "offer_sale_price": "4.83",
+            "sku_id": "12000042671317951",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "15.58",
+            "offer_bulk_sale_price": "4.83",
+            "sku_available_stock": 20,
+            "id": "5:361385;14:10#red",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "Red",
+                "sku_image": "https://ae01.alicdn.com/kf/S10a9c4b022de4568b7ab8a2d24609cab7.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "red",
+                "property_value_id": 10,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "L",
+                "sku_property_name": "Size",
+                "property_value_id": 361385,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:100014065;14:200004890#black pink",
+            "offer_sale_price": "10.14",
+            "sku_id": "12000048661747790",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "21.57",
+            "offer_bulk_sale_price": "10.14",
+            "sku_available_stock": 1,
+            "id": "5:100014065;14:200004890#black pink",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "Dark Grey",
+                "sku_image": "https://ae01.alicdn.com/kf/S1bb93752767042ca913c4f17d7d87b5a0.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "black pink",
+                "property_value_id": 200004890,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "XL",
+                "sku_property_name": "Size",
+                "property_value_id": 100014065,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:361386;14:10#red",
+            "offer_sale_price": "4.13",
+            "sku_id": "12000042671317950",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "13.33",
+            "offer_bulk_sale_price": "4.13",
+            "sku_available_stock": 54,
+            "id": "5:361386;14:10#red",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "Red",
+                "sku_image": "https://ae01.alicdn.com/kf/S10a9c4b022de4568b7ab8a2d24609cab7.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "red",
+                "property_value_id": 10,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "M",
+                "sku_property_name": "Size",
+                "property_value_id": 361386,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:100014064;14:175#black red",
+            "offer_sale_price": "9.85",
+            "sku_id": "12000048661747791",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "20.97",
+            "offer_bulk_sale_price": "9.85",
+            "sku_available_stock": 3,
+            "id": "5:100014064;14:175#black red",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "green",
+                "sku_image": "https://ae01.alicdn.com/kf/S5c7d0e0817274eaea9db9fbf4360847bH.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "black red",
+                "property_value_id": 175,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "S",
+                "sku_property_name": "Size",
+                "property_value_id": 100014064,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:100014064;14:193#black",
+            "offer_sale_price": "5.34",
+            "sku_id": "12000042671317945",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "16.69",
+            "offer_bulk_sale_price": "5.34",
+            "sku_available_stock": 10,
+            "id": "5:100014064;14:193#black",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "black",
+                "sku_image": "https://ae01.alicdn.com/kf/Sb5ef4dc5d9f74a49a6e994cfd229db275.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "black",
+                "property_value_id": 193,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "S",
+                "sku_property_name": "Size",
+                "property_value_id": 100014064,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:361386;14:691#black blue",
+            "offer_sale_price": "9.76",
+            "sku_id": "12000048661747784",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "20.77",
+            "offer_bulk_sale_price": "9.76",
+            "sku_available_stock": 5,
+            "id": "5:361386;14:691#black blue",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "GRAY",
+                "sku_image": "https://ae01.alicdn.com/kf/S7b466981e82b404a8cdaea4a354b6cfb0.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "black blue",
+                "property_value_id": 691,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "M",
+                "sku_property_name": "Size",
+                "property_value_id": 361386,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:361385;14:691#black blue",
+            "offer_sale_price": "10.14",
+            "sku_id": "12000048661747785",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "21.58",
+            "offer_bulk_sale_price": "10.14",
+            "sku_available_stock": 2,
+            "id": "5:361385;14:691#black blue",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "GRAY",
+                "sku_image": "https://ae01.alicdn.com/kf/S7b466981e82b404a8cdaea4a354b6cfb0.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "black blue",
+                "property_value_id": 691,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "L",
+                "sku_property_name": "Size",
+                "property_value_id": 361385,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:361385;14:193#black",
+            "offer_sale_price": "5.36",
+            "sku_id": "12000042671317947",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "16.76",
+            "offer_bulk_sale_price": "5.36",
+            "sku_available_stock": 3,
+            "id": "5:361385;14:193#black",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "black",
+                "sku_image": "https://ae01.alicdn.com/kf/Sb5ef4dc5d9f74a49a6e994cfd229db275.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "black",
+                "property_value_id": 193,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "L",
+                "sku_property_name": "Size",
+                "property_value_id": 361385,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:100014065;14:691#black blue",
+            "offer_sale_price": "10.36",
+            "sku_id": "12000048661747786",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "22.04",
+            "offer_bulk_sale_price": "10.36",
+            "sku_available_stock": 15,
+            "id": "5:100014065;14:691#black blue",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "GRAY",
+                "sku_image": "https://ae01.alicdn.com/kf/S7b466981e82b404a8cdaea4a354b6cfb0.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "black blue",
+                "property_value_id": 691,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "XL",
+                "sku_property_name": "Size",
+                "property_value_id": 100014065,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:361386;14:193#black",
+            "offer_sale_price": "5.22",
+            "sku_id": "12000042671317946",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "16.31",
+            "offer_bulk_sale_price": "5.22",
+            "sku_available_stock": 4,
+            "id": "5:361386;14:193#black",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "black",
+                "sku_image": "https://ae01.alicdn.com/kf/Sb5ef4dc5d9f74a49a6e994cfd229db275.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "black",
+                "property_value_id": 193,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "M",
+                "sku_property_name": "Size",
+                "property_value_id": 361386,
+                "sku_property_id": 5
+              }
+            ]
+          },
+          {
+            "sku_attr": "5:100014064;14:200004890#black pink",
+            "offer_sale_price": "9.92",
+            "sku_id": "12000048661747787",
+            "price_include_tax": false,
+            "currency_code": "USD",
+            "sku_price": "21.11",
+            "offer_bulk_sale_price": "9.92",
+            "sku_available_stock": 4,
+            "id": "5:100014064;14:200004890#black pink",
+            "ae_sku_property_dtos": [
+              {
+                "sku_property_value": "Dark Grey",
+                "sku_image": "https://ae01.alicdn.com/kf/S1bb93752767042ca913c4f17d7d87b5a0.jpg",
+                "sku_property_name": "Color",
+                "property_value_definition_name": "black pink",
+                "property_value_id": 200004890,
+                "sku_property_id": 14
+              },
+              {
+                "sku_property_value": "S",
+                "sku_property_name": "Size",
+                "property_value_id": 100014064,
+                "sku_property_id": 5
+              }
+            ]
+          }
+        ],
+        "ae_multimedia_info_dto": {
+          "image_urls": "https://ae01.alicdn.com/kf/Se481309d2d92424b9f0a79bc6e7326d11.jpg;https://ae01.alicdn.com/kf/Sed63e0b77ba542c3ab7177b20f83c894l.jpg;https://ae01.alicdn.com/kf/S3510153816c54ffda18b39229d0f8da0C.jpg;https://ae01.alicdn.com/kf/S260c36d00a0c44d59c9dc439ce307e00b.jpg;https://ae01.alicdn.com/kf/Sbc855f82ea78495ebe8dcc8e359889803.jpg;https://ae01.alicdn.com/kf/S42d776d6dfb34edd95787d7becb7dba66.jpg"
+        },
+        "package_info_dto": {
+          "package_width": 12,
+          "package_height": 4,
+          "package_length": 24,
+          "gross_weight": "0.120",
+          "package_type": false,
+          "product_unit": 100000015
+        },
+        "logistics_info_dto": {
+          "delivery_time": 7,
+          "ship_to_country": "US"
+        },
+        "product_id_converter_result": {
+          "main_product_id": 1005007879054168,
+          "sub_product_id": "{\"US\":3256807692739416}"
+        },
+        "ae_item_base_info_dto": {
+          "mobile_detail": "{\"version\":\"2.0.0\",\"moduleList\":[{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S71d2683275bf418e9c4a31ef680215489.jpg\",\"style\":{\"width\":800,\"height\":100}}},{\"type\":\"text\",\"data\":{\"content\":\"Size, S, Bust: 82cm, Tops Length: 32cm ,Waist: 63cm, Hips: 98cm,  Bottoms Length: 7cm\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Size, M, Bust: 86cm, Tops Length: 33cm ,Waist: 65cm, Hips: 104cm, Bottoms Length: 8cm\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Size, L, Bust: 92cm,Tops Length: 34cm ,Waist: 67cm, Hips: 108cm, Bottoms Length: 8cm\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Size, xL, Bust: 98cm,Tops Length: 35cm ,Waist: 69cm, Hips: 112cm, Bottoms Length: 9cm\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Attention : ( 1 inch=2.54 cm, 1 cm=0.39 inch )\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Please strictly follow the size chart to select the size. Do not select directly according to your habits.\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"This clothing size information is just for reference only, and may have 2-3cm differences due to manual measurement.\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Item color displayed in photos may be showing slightly different on your computer monitor since monitors are not calibrated same.\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S777148c6cf6241d094cf5652fc8da9c9Q.jpg\",\"style\":{\"width\":800,\"height\":100}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S71cdde43ff23426eaa1651bf81a79465l.jpg\",\"style\":{\"width\":900,\"height\":1198}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S0af1ebff6c474cd9af710e4bbde2d3c3Y.jpg\",\"style\":{\"width\":900,\"height\":900}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sa8d991051a5d40289843104144a51710W.jpg\",\"style\":{\"width\":850,\"height\":850}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sbef4c1540e2c4a6897fb34240b74585an.jpg\",\"style\":{\"width\":850,\"height\":850}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S14c97b00c5eb493ebdf42e4d095c398af.jpg\",\"style\":{\"width\":900,\"height\":1198}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S567009da65494bd39dfe4b47b02ad6c9y.jpg\",\"style\":{\"width\":850,\"height\":850}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S53f782e30c9947d881562763b0cf7a95B.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S42d776d6dfb34edd95787d7becb7dba66.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S9180dd6fe667476ba0549d11ecea694cn.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S260c36d00a0c44d59c9dc439ce307e00b.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sf6a3727389284a76963061bad6376760T.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sbc855f82ea78495ebe8dcc8e359889803.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S3510153816c54ffda18b39229d0f8da0C.jpg\",\"style\":{\"width\":800,\"height\":800}}}]}",
+          "subject": "Women's Pajamas Set Sleepwear 2 PCS Short Tank Tops And Shorts S M L White Ventilate Soft Casual Love Printing",
+          "evaluation_count": "10085",
+          "sales_count": "10000+",
+          "product_status_type": "onSelling",
+          "avg_evaluation_rating": "4.6",
+          "separated_listing": false,
+          "currency_code": "CNY",
+          "sl_product": false,
+          "category_id": 200001904,
+          "product_id": 1005007879054168,
+          "detail": "<p><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S71d2683275bf418e9c4a31ef680215489.jpg\" slate-data-type=\"image\"/></p><p style=\"font-family:&quot;TT Norms Pro&quot;, &quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:center;white-space:normal;color:rgb(34, 34, 34);margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"center\"><strong><span style=\"font-size:18px\"><span style=\"font-family:宋体\"><br/>Size, S, Bust: 82cm, Tops Length: 32cm ,Waist: 63cm, Hips: 98cm,  Bottoms Length: 7cm</span></span></strong></p><p style=\"font-family:&quot;TT Norms Pro&quot;, &quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:center;white-space:normal;color:rgb(34, 34, 34);margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"center\"><strong><span style=\"font-size:18px\"><span style=\"font-family:宋体\">Size, M, Bust: 86cm, Tops Length: 33cm ,Waist: 65cm, Hips: 104cm, Bottoms Length: 8cm</span></span></strong></p><p style=\"font-family:&quot;TT Norms Pro&quot;, &quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:center;white-space:normal;color:rgb(34, 34, 34);margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"center\"><strong><span style=\"font-size:18px\"><span style=\"font-family:宋体\">Size, L, Bust: 92cm,Tops Length: 34cm ,Waist: 67cm, Hips: 108cm, Bottoms Length: 8cm<br/>Size, xL, Bust: 98cm,Tops Length: 35cm ,Waist: 69cm, Hips: 112cm, Bottoms Length: 9cm</span></span></strong></p><p style=\"font-family:&quot;TT Norms Pro&quot;, &quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:center;white-space:normal;color:rgb(34, 34, 34);margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"center\"><span style=\"font-size:18px\"><span style=\"color:rgb(255, 0, 0)\"><span style=\"font-family:arial, helvetica, sans-serif\"><br/>Attention</span></span></span><span> </span><span style=\"font-size:18px\"><span style=\"font-family:arial, helvetica, sans-serif\">: ( 1 inch=2.54 cm, 1 cm=0.39 inch )<br/>Please strictly follow the size chart to select the size. Do not select directly according to your habits.<br/>This clothing size information is just for reference only, and may have 2-3cm differences due to manual measurement.<br/>Item color displayed in photos may be showing slightly different on your computer monitor since monitors are not</span></span><span style=\"font-size:18px\"><span style=\"font-family:arial, helvetica, sans-serif\"><span> </span></span></span><span style=\"font-size:18px\"><span style=\"background-color:rgb(255, 255, 255)\"><span style=\"color:rgb(0, 0, 0)\"><span style=\"font-family:arial, helvetica, sans-serif\">calibrated same.</span></span></span></span><br/></p><p style=\"font-family:&quot;TT Norms Pro&quot;, &quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:center;white-space:normal;color:rgb(34, 34, 34);margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"center\"><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S777148c6cf6241d094cf5652fc8da9c9Q.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S71cdde43ff23426eaa1651bf81a79465l.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S0af1ebff6c474cd9af710e4bbde2d3c3Y.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sa8d991051a5d40289843104144a51710W.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sbef4c1540e2c4a6897fb34240b74585an.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S14c97b00c5eb493ebdf42e4d095c398af.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S567009da65494bd39dfe4b47b02ad6c9y.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S53f782e30c9947d881562763b0cf7a95B.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S42d776d6dfb34edd95787d7becb7dba66.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S9180dd6fe667476ba0549d11ecea694cn.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S260c36d00a0c44d59c9dc439ce307e00b.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sf6a3727389284a76963061bad6376760T.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sbc855f82ea78495ebe8dcc8e359889803.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S3510153816c54ffda18b39229d0f8da0C.jpg\" slate-data-type=\"image\"/></p>"
+        },
+        "has_whole_sale": false,
+        "ae_item_properties": [
+          {
+            "attr_name_id": 2,
+            "attr_value_id": 201512802,
+            "attr_name": "Brand Name",
+            "attr_value": "NONE"
+          },
+          {
+            "attr_name_id": 284,
+            "attr_value_id": 494,
+            "attr_name": "Gender",
+            "attr_value": "Women"
+          },
+          {
+            "attr_name_id": 10,
+            "attr_value_id": 48,
+            "attr_name": "Material",
+            "attr_value": "POLYESTER"
+          },
+          {
+            "attr_name_id": 10,
+            "attr_value_id": 100019017,
+            "attr_name": "Material",
+            "attr_value": "Elastane"
+          },
+          {
+            "attr_name_id": 200000457,
+            "attr_value_id": 8322,
+            "attr_name": "Collar",
+            "attr_value": "Spaghetti Strap"
+          },
+          {
+            "attr_name_id": 380,
+            "attr_value_id": 200005669,
+            "attr_name": "Length",
+            "attr_value": "Shorts"
+          },
+          {
+            "attr_name_id": 6,
+            "attr_value_id": 1914,
+            "attr_name": "Type",
+            "attr_value": "Shorts"
+          },
+          {
+            "attr_name_id": 6,
+            "attr_value_id": 200002178,
+            "attr_name": "Type",
+            "attr_value": "Pajamas"
+          },
+          {
+            "attr_name_id": 400000603,
+            "attr_value_id": 23399591357,
+            "attr_name": "High-concerned chemical",
+            "attr_value": "none"
+          },
+          {
+            "attr_name_id": 200000329,
+            "attr_value_id": 200001255,
+            "attr_name": "Pattern Type",
+            "attr_value": "Geometric"
+          },
+          {
+            "attr_name_id": 326,
+            "attr_value_id": 200000890,
+            "attr_name": "Style",
+            "attr_value": "sexy"
+          },
+          {
+            "attr_name_id": 219,
+            "attr_value_id": 9441741844,
+            "attr_name": "Origin",
+            "attr_value": "Mainland China"
+          },
+          {
+            "attr_name_id": 266081643,
+            "attr_value_id": 100015190,
+            "attr_name": "CN",
+            "attr_value": "Guangdong"
+          },
+          {
+            "attr_name_id": 100007732,
+            "attr_value_id": 1874,
+            "attr_name": "Sleeve Length(cm)",
+            "attr_value": "Sleeveless"
+          },
+          {
+            "attr_name_id": 281,
+            "attr_value_id": 1870,
+            "attr_name": "Season",
+            "attr_value": "summer"
+          },
+          {
+            "attr_name_id": 340863826,
+            "attr_value_id": 4388665,
+            "attr_name": "Craft of Weaving",
+            "attr_value": "Knit"
+          },
+          {
+            "attr_name_id": 200362261,
+            "attr_value_id": 349906,
+            "attr_name": "Obscene Picture",
+            "attr_value": "No"
+          },
+          {
+            "attr_name_id": 200000137,
+            "attr_value_id": 200002178,
+            "attr_name": "Item Type",
+            "attr_value": "Pajamas"
+          },
+          {
+            "attr_name_id": 200363261,
+            "attr_value_id": 349906,
+            "attr_name": "Sexually Suggestive",
+            "attr_value": "No"
+          },
+          {
+            "attr_name_id": -1,
+            "attr_name": "Choice",
+            "attr_value": "yes"
+          },
+          {
+            "attr_name": "size_info",
+            "attr_value": "{\"sizeInfoList\":[{\"length\":{\"cm\":\"84\",\"inch\":\"33.07\"},\"size\":\"S\",\"vid\":-1},{\"length\":{\"cm\":\"88\",\"inch\":\"34.65\"},\"size\":\"M\",\"vid\":-2},{\"length\":{\"cm\":\"92\",\"inch\":\"36.22\"},\"size\":\"L\",\"vid\":-3},{\"length\":{\"cm\":\"96\",\"inch\":\"37.80\"},\"size\":\"XL\",\"vid\":-4}]}"
+          }
+        ],
+        "ae_store_info": {
+          "store_id": 1104007545,
+          "shipping_speed_rating": "4.7",
+          "communication_rating": "4.6",
+          "store_name": "Mili Flagship Store",
+          "store_country_code": "CN",
+          "item_as_described_rating": "4.5"
+        }
+      },
+      "rsp_code": 200,
+      "rsp_msg": "Call succeeds",
+      "request_id": "2140d42a17896729526226980",
+      "_trace_id_": "2140f88817896729526202539e10a7"
+    }
+  },
+  "rawResponse": {
+    "result": {
+      "ae_item_sku_info_dtos": [
+        {
+          "sku_attr": "5:100014064;14:1052#pink",
+          "offer_sale_price": "5.18",
+          "sku_id": "12000042671317957",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "16.19",
+          "offer_bulk_sale_price": "5.18",
+          "sku_available_stock": 2,
+          "id": "5:100014064;14:1052#pink",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "Pink",
+              "sku_image": "https://ae01.alicdn.com/kf/Sfc579e8c50ac4db6af256ee824d15ad5M.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "pink",
+              "property_value_id": 1052,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "S",
+              "sku_property_name": "Size",
+              "property_value_id": 100014064,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:100014065;14:173#blue",
+          "offer_sale_price": "5.01",
+          "sku_id": "12000042671317956",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "15.65",
+          "offer_bulk_sale_price": "5.01",
+          "sku_available_stock": 61,
+          "id": "5:100014065;14:173#blue",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "Blue",
+              "sku_image": "https://ae01.alicdn.com/kf/S53f782e30c9947d881562763b0cf7a95B.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "blue",
+              "property_value_id": 173,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "XL",
+              "sku_property_name": "Size",
+              "property_value_id": 100014065,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:361385;14:1052#pink",
+          "offer_sale_price": "5.43",
+          "sku_id": "12000042671317959",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "16.98",
+          "offer_bulk_sale_price": "5.43",
+          "sku_available_stock": 10,
+          "id": "5:361385;14:1052#pink",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "Pink",
+              "sku_image": "https://ae01.alicdn.com/kf/Sfc579e8c50ac4db6af256ee824d15ad5M.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "pink",
+              "property_value_id": 1052,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "L",
+              "sku_property_name": "Size",
+              "property_value_id": 361385,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:361386;14:1052#pink",
+          "offer_sale_price": "5.07",
+          "sku_id": "12000042671317958",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "15.84",
+          "offer_bulk_sale_price": "5.07",
+          "sku_available_stock": 95,
+          "id": "5:361386;14:1052#pink",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "Pink",
+              "sku_image": "https://ae01.alicdn.com/kf/Sfc579e8c50ac4db6af256ee824d15ad5M.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "pink",
+              "property_value_id": 1052,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "M",
+              "sku_property_name": "Size",
+              "property_value_id": 361386,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:100014064;14:771#2pcs black",
+          "offer_sale_price": "9.80",
+          "sku_id": "12000048661747767",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "20.85",
+          "offer_bulk_sale_price": "9.80",
+          "sku_available_stock": 5,
+          "id": "5:100014064;14:771#2pcs black",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "Beige",
+              "sku_image": "https://ae01.alicdn.com/kf/Sfb489f50021b46d0861031a293c83b29F.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "2pcs black",
+              "property_value_id": 771,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "S",
+              "sku_property_name": "Size",
+              "property_value_id": 100014064,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:100014064;14:173#blue",
+          "offer_sale_price": "5.07",
+          "sku_id": "12000042671317953",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "15.86",
+          "offer_bulk_sale_price": "5.07",
+          "sku_available_stock": 30,
+          "id": "5:100014064;14:173#blue",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "Blue",
+              "sku_image": "https://ae01.alicdn.com/kf/S53f782e30c9947d881562763b0cf7a95B.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "blue",
+              "property_value_id": 173,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "S",
+              "sku_property_name": "Size",
+              "property_value_id": 100014064,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:100014065;14:10#red",
+          "offer_sale_price": "4.77",
+          "sku_id": "12000042671317952",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "15.38",
+          "offer_bulk_sale_price": "4.77",
+          "sku_available_stock": 21,
+          "id": "5:100014065;14:10#red",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "Red",
+              "sku_image": "https://ae01.alicdn.com/kf/S10a9c4b022de4568b7ab8a2d24609cab7.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "red",
+              "property_value_id": 10,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "XL",
+              "sku_property_name": "Size",
+              "property_value_id": 100014065,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:361385;14:173#blue",
+          "offer_sale_price": "5.37",
+          "sku_id": "12000042671317955",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "16.78",
+          "offer_bulk_sale_price": "5.37",
+          "sku_available_stock": 6,
+          "id": "5:361385;14:173#blue",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "Blue",
+              "sku_image": "https://ae01.alicdn.com/kf/S53f782e30c9947d881562763b0cf7a95B.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "blue",
+              "property_value_id": 173,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "L",
+              "sku_property_name": "Size",
+              "property_value_id": 361385,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:361386;14:173#blue",
+          "offer_sale_price": "5.28",
+          "sku_id": "12000042671317954",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "16.50",
+          "offer_bulk_sale_price": "5.28",
+          "sku_available_stock": 3,
+          "id": "5:361386;14:173#blue",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "Blue",
+              "sku_image": "https://ae01.alicdn.com/kf/S53f782e30c9947d881562763b0cf7a95B.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "blue",
+              "property_value_id": 173,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "M",
+              "sku_property_name": "Size",
+              "property_value_id": 361386,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:361386;14:1254#2pcs blue",
+          "offer_sale_price": "9.60",
+          "sku_id": "12000048661747772",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "20.42",
+          "offer_bulk_sale_price": "9.60",
+          "sku_available_stock": 4,
+          "id": "5:361386;14:1254#2pcs blue",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "SKY BLUE",
+              "sku_image": "https://ae01.alicdn.com/kf/Sa52047655b1747fd975aeb73d4897afc0.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "2pcs blue",
+              "property_value_id": 1254,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "M",
+              "sku_property_name": "Size",
+              "property_value_id": 361386,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:361385;14:1254#2pcs blue",
+          "offer_sale_price": "10.50",
+          "sku_id": "12000048661747773",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "22.33",
+          "offer_bulk_sale_price": "10.50",
+          "sku_available_stock": 28,
+          "id": "5:361385;14:1254#2pcs blue",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "SKY BLUE",
+              "sku_image": "https://ae01.alicdn.com/kf/Sa52047655b1747fd975aeb73d4897afc0.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "2pcs blue",
+              "property_value_id": 1254,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "L",
+              "sku_property_name": "Size",
+              "property_value_id": 361385,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:100014065;14:1254#2pcs blue",
+          "offer_sale_price": "10.29",
+          "sku_id": "12000048661747774",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "21.89",
+          "offer_bulk_sale_price": "10.29",
+          "sku_available_stock": 24,
+          "id": "5:100014065;14:1254#2pcs blue",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "SKY BLUE",
+              "sku_image": "https://ae01.alicdn.com/kf/Sa52047655b1747fd975aeb73d4897afc0.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "2pcs blue",
+              "property_value_id": 1254,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "XL",
+              "sku_property_name": "Size",
+              "property_value_id": 100014065,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:100014064;14:365458#2pcs pink",
+          "offer_sale_price": "9.64",
+          "sku_id": "12000048661747775",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "20.52",
+          "offer_bulk_sale_price": "9.64",
+          "sku_available_stock": 11,
+          "id": "5:100014064;14:365458#2pcs pink",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "Brown",
+              "sku_image": "https://ae01.alicdn.com/kf/S12021412d6a34115be4f5baef689af25J.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "2pcs pink",
+              "property_value_id": 365458,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "S",
+              "sku_property_name": "Size",
+              "property_value_id": 100014064,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:361386;14:771#2pcs black",
+          "offer_sale_price": "9.90",
+          "sku_id": "12000048661747768",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "21.05",
+          "offer_bulk_sale_price": "9.90",
+          "sku_available_stock": 2,
+          "id": "5:361386;14:771#2pcs black",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "Beige",
+              "sku_image": "https://ae01.alicdn.com/kf/Sfb489f50021b46d0861031a293c83b29F.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "2pcs black",
+              "property_value_id": 771,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "M",
+              "sku_property_name": "Size",
+              "property_value_id": 361386,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:100014065;14:1052#pink",
+          "offer_sale_price": "5.01",
+          "sku_id": "12000042671317960",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "15.68",
+          "offer_bulk_sale_price": "5.01",
+          "sku_available_stock": 14,
+          "id": "5:100014065;14:1052#pink",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "Pink",
+              "sku_image": "https://ae01.alicdn.com/kf/Sfc579e8c50ac4db6af256ee824d15ad5M.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "pink",
+              "property_value_id": 1052,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "XL",
+              "sku_property_name": "Size",
+              "property_value_id": 100014065,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:361385;14:771#2pcs black",
+          "offer_sale_price": "10.13",
+          "sku_id": "12000048661747769",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "21.54",
+          "offer_bulk_sale_price": "10.13",
+          "sku_available_stock": 20,
+          "id": "5:361385;14:771#2pcs black",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "Beige",
+              "sku_image": "https://ae01.alicdn.com/kf/Sfb489f50021b46d0861031a293c83b29F.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "2pcs black",
+              "property_value_id": 771,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "L",
+              "sku_property_name": "Size",
+              "property_value_id": 361385,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:100014065;14:771#2pcs black",
+          "offer_sale_price": "10.76",
+          "sku_id": "12000048661747770",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "22.89",
+          "offer_bulk_sale_price": "10.76",
+          "sku_available_stock": 4,
+          "id": "5:100014065;14:771#2pcs black",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "Beige",
+              "sku_image": "https://ae01.alicdn.com/kf/Sfb489f50021b46d0861031a293c83b29F.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "2pcs black",
+              "property_value_id": 771,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "XL",
+              "sku_property_name": "Size",
+              "property_value_id": 100014065,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:100014064;14:1254#2pcs blue",
+          "offer_sale_price": "9.64",
+          "sku_id": "12000048661747771",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "20.51",
+          "offer_bulk_sale_price": "9.64",
+          "sku_available_stock": 27,
+          "id": "5:100014064;14:1254#2pcs blue",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "SKY BLUE",
+              "sku_image": "https://ae01.alicdn.com/kf/Sa52047655b1747fd975aeb73d4897afc0.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "2pcs blue",
+              "property_value_id": 1254,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "S",
+              "sku_property_name": "Size",
+              "property_value_id": 100014064,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:361386;14:200004889#blue pink",
+          "offer_sale_price": "10.05",
+          "sku_id": "12000048661747796",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "21.38",
+          "offer_bulk_sale_price": "10.05",
+          "sku_available_stock": 13,
+          "id": "5:361386;14:200004889#blue pink",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "army green",
+              "sku_image": "https://ae01.alicdn.com/kf/S764f3b843aff4287b6969d9ce05fb0dfA.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "blue pink",
+              "property_value_id": 200004889,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "M",
+              "sku_property_name": "Size",
+              "property_value_id": 361386,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:361385;14:200004889#blue pink",
+          "offer_sale_price": "10.20",
+          "sku_id": "12000048661747797",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "21.70",
+          "offer_bulk_sale_price": "10.20",
+          "sku_available_stock": 11,
+          "id": "5:361385;14:200004889#blue pink",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "army green",
+              "sku_image": "https://ae01.alicdn.com/kf/S764f3b843aff4287b6969d9ce05fb0dfA.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "blue pink",
+              "property_value_id": 200004889,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "L",
+              "sku_property_name": "Size",
+              "property_value_id": 361385,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:100014065;14:200004889#blue pink",
+          "offer_sale_price": "10.32",
+          "sku_id": "12000048661747798",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "21.96",
+          "offer_bulk_sale_price": "10.32",
+          "sku_available_stock": 1,
+          "id": "5:100014065;14:200004889#blue pink",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "army green",
+              "sku_image": "https://ae01.alicdn.com/kf/S764f3b843aff4287b6969d9ce05fb0dfA.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "blue pink",
+              "property_value_id": 200004889,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "XL",
+              "sku_property_name": "Size",
+              "property_value_id": 100014065,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:100014064;14:200002130#blue red",
+          "offer_sale_price": "10.13",
+          "sku_id": "12000048661747799",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "21.55",
+          "offer_bulk_sale_price": "10.13",
+          "sku_available_stock": 2,
+          "id": "5:100014064;14:200002130#blue red",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "Ivory",
+              "sku_image": "https://ae01.alicdn.com/kf/Sfca722ab333545169fe56d79d9d3c2dcH.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "blue red",
+              "property_value_id": 200002130,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "S",
+              "sku_property_name": "Size",
+              "property_value_id": 100014064,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:361386;14:175#black red",
+          "offer_sale_price": "10.05",
+          "sku_id": "12000048661747792",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "21.38",
+          "offer_bulk_sale_price": "10.05",
+          "sku_available_stock": 3,
+          "id": "5:361386;14:175#black red",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "green",
+              "sku_image": "https://ae01.alicdn.com/kf/S5c7d0e0817274eaea9db9fbf4360847bH.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "black red",
+              "property_value_id": 175,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "M",
+              "sku_property_name": "Size",
+              "property_value_id": 361386,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:361385;14:175#black red",
+          "offer_sale_price": "10.15",
+          "sku_id": "12000048661747793",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "21.61",
+          "offer_bulk_sale_price": "10.15",
+          "sku_available_stock": 4,
+          "id": "5:361385;14:175#black red",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "green",
+              "sku_image": "https://ae01.alicdn.com/kf/S5c7d0e0817274eaea9db9fbf4360847bH.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "black red",
+              "property_value_id": 175,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "L",
+              "sku_property_name": "Size",
+              "property_value_id": 361385,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:100014065;14:175#black red",
+          "offer_sale_price": "10.59",
+          "sku_id": "12000048661747794",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "22.54",
+          "offer_bulk_sale_price": "10.59",
+          "sku_available_stock": 5,
+          "id": "5:100014065;14:175#black red",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "green",
+              "sku_image": "https://ae01.alicdn.com/kf/S5c7d0e0817274eaea9db9fbf4360847bH.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "black red",
+              "property_value_id": 175,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "XL",
+              "sku_property_name": "Size",
+              "property_value_id": 100014065,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:100014064;14:200004889#blue pink",
+          "offer_sale_price": "9.69",
+          "sku_id": "12000048661747795",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "20.61",
+          "offer_bulk_sale_price": "9.69",
+          "sku_available_stock": 6,
+          "id": "5:100014064;14:200004889#blue pink",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "army green",
+              "sku_image": "https://ae01.alicdn.com/kf/S764f3b843aff4287b6969d9ce05fb0dfA.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "blue pink",
+              "property_value_id": 200004889,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "S",
+              "sku_property_name": "Size",
+              "property_value_id": 100014064,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:361386;14:200001438#pink red",
+          "offer_sale_price": "9.79",
+          "sku_id": "12000048661747804",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "20.83",
+          "offer_bulk_sale_price": "9.79",
+          "sku_available_stock": 10,
+          "id": "5:361386;14:200001438#pink red",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "Khaki",
+              "sku_image": "https://ae01.alicdn.com/kf/S7c0067128c4c41878d39bbf8673af28bT.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "pink red",
+              "property_value_id": 200001438,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "M",
+              "sku_property_name": "Size",
+              "property_value_id": 361386,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:361385;14:200001438#pink red",
+          "offer_sale_price": "10.40",
+          "sku_id": "12000048661747805",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "22.12",
+          "offer_bulk_sale_price": "10.40",
+          "sku_available_stock": 2,
+          "id": "5:361385;14:200001438#pink red",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "Khaki",
+              "sku_image": "https://ae01.alicdn.com/kf/S7c0067128c4c41878d39bbf8673af28bT.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "pink red",
+              "property_value_id": 200001438,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "L",
+              "sku_property_name": "Size",
+              "property_value_id": 361385,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:100014065;14:200001438#pink red",
+          "offer_sale_price": "10.44",
+          "sku_id": "12000048661747806",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "22.22",
+          "offer_bulk_sale_price": "10.44",
+          "sku_available_stock": 3,
+          "id": "5:100014065;14:200001438#pink red",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "Khaki",
+              "sku_image": "https://ae01.alicdn.com/kf/S7c0067128c4c41878d39bbf8673af28bT.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "pink red",
+              "property_value_id": 200001438,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "XL",
+              "sku_property_name": "Size",
+              "property_value_id": 100014065,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:361386;14:200002130#blue red",
+          "offer_sale_price": "9.89",
+          "sku_id": "12000048661747800",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "21.05",
+          "offer_bulk_sale_price": "9.89",
+          "sku_available_stock": 3,
+          "id": "5:361386;14:200002130#blue red",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "Ivory",
+              "sku_image": "https://ae01.alicdn.com/kf/Sfca722ab333545169fe56d79d9d3c2dcH.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "blue red",
+              "property_value_id": 200002130,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "M",
+              "sku_property_name": "Size",
+              "property_value_id": 361386,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:361385;14:200002130#blue red",
+          "offer_sale_price": "10.56",
+          "sku_id": "12000048661747801",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "22.46",
+          "offer_bulk_sale_price": "10.56",
+          "sku_available_stock": 10,
+          "id": "5:361385;14:200002130#blue red",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "Ivory",
+              "sku_image": "https://ae01.alicdn.com/kf/Sfca722ab333545169fe56d79d9d3c2dcH.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "blue red",
+              "property_value_id": 200002130,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "L",
+              "sku_property_name": "Size",
+              "property_value_id": 361385,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:100014065;14:200002130#blue red",
+          "offer_sale_price": "10.42",
+          "sku_id": "12000048661747802",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "22.18",
+          "offer_bulk_sale_price": "10.42",
+          "sku_available_stock": 4,
+          "id": "5:100014065;14:200002130#blue red",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "Ivory",
+              "sku_image": "https://ae01.alicdn.com/kf/Sfca722ab333545169fe56d79d9d3c2dcH.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "blue red",
+              "property_value_id": 200002130,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "XL",
+              "sku_property_name": "Size",
+              "property_value_id": 100014065,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:100014064;14:200001438#pink red",
+          "offer_sale_price": "10.04",
+          "sku_id": "12000048661747803",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "21.37",
+          "offer_bulk_sale_price": "10.04",
+          "sku_available_stock": 12,
+          "id": "5:100014064;14:200001438#pink red",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "Khaki",
+              "sku_image": "https://ae01.alicdn.com/kf/S7c0067128c4c41878d39bbf8673af28bT.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "pink red",
+              "property_value_id": 200001438,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "S",
+              "sku_property_name": "Size",
+              "property_value_id": 100014064,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:361386;14:350850#2pcs red",
+          "offer_sale_price": "10.29",
+          "sku_id": "12000048661747780",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "21.90",
+          "offer_bulk_sale_price": "10.29",
+          "sku_available_stock": 5,
+          "id": "5:361386;14:350850#2pcs red",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "Gold",
+              "sku_image": "https://ae01.alicdn.com/kf/S1363b27bc97845beb328f69c9c39adacc.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "2pcs red",
+              "property_value_id": 350850,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "M",
+              "sku_property_name": "Size",
+              "property_value_id": 361386,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:361385;14:350850#2pcs red",
+          "offer_sale_price": "10.43",
+          "sku_id": "12000048661747781",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "22.19",
+          "offer_bulk_sale_price": "10.43",
+          "sku_available_stock": 13,
+          "id": "5:361385;14:350850#2pcs red",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "Gold",
+              "sku_image": "https://ae01.alicdn.com/kf/S1363b27bc97845beb328f69c9c39adacc.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "2pcs red",
+              "property_value_id": 350850,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "L",
+              "sku_property_name": "Size",
+              "property_value_id": 361385,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:100014065;14:350850#2pcs red",
+          "offer_sale_price": "10.93",
+          "sku_id": "12000048661747782",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "23.26",
+          "offer_bulk_sale_price": "10.93",
+          "sku_available_stock": 1,
+          "id": "5:100014065;14:350850#2pcs red",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "Gold",
+              "sku_image": "https://ae01.alicdn.com/kf/S1363b27bc97845beb328f69c9c39adacc.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "2pcs red",
+              "property_value_id": 350850,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "XL",
+              "sku_property_name": "Size",
+              "property_value_id": 100014065,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:100014064;14:691#black blue",
+          "offer_sale_price": "9.74",
+          "sku_id": "12000048661747783",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "20.73",
+          "offer_bulk_sale_price": "9.74",
+          "sku_available_stock": 2,
+          "id": "5:100014064;14:691#black blue",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "GRAY",
+              "sku_image": "https://ae01.alicdn.com/kf/S7b466981e82b404a8cdaea4a354b6cfb0.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "black blue",
+              "property_value_id": 691,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "S",
+              "sku_property_name": "Size",
+              "property_value_id": 100014064,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:361386;14:365458#2pcs pink",
+          "offer_sale_price": "9.73",
+          "sku_id": "12000048661747776",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "20.71",
+          "offer_bulk_sale_price": "9.73",
+          "sku_available_stock": 4,
+          "id": "5:361386;14:365458#2pcs pink",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "Brown",
+              "sku_image": "https://ae01.alicdn.com/kf/S12021412d6a34115be4f5baef689af25J.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "2pcs pink",
+              "property_value_id": 365458,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "M",
+              "sku_property_name": "Size",
+              "property_value_id": 361386,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:361385;14:365458#2pcs pink",
+          "offer_sale_price": "10.00",
+          "sku_id": "12000048661747777",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "21.28",
+          "offer_bulk_sale_price": "10.00",
+          "sku_available_stock": 2,
+          "id": "5:361385;14:365458#2pcs pink",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "Brown",
+              "sku_image": "https://ae01.alicdn.com/kf/S12021412d6a34115be4f5baef689af25J.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "2pcs pink",
+              "property_value_id": 365458,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "L",
+              "sku_property_name": "Size",
+              "property_value_id": 361385,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:100014065;14:365458#2pcs pink",
+          "offer_sale_price": "10.55",
+          "sku_id": "12000048661747778",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "22.45",
+          "offer_bulk_sale_price": "10.55",
+          "sku_available_stock": 5,
+          "id": "5:100014065;14:365458#2pcs pink",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "Brown",
+              "sku_image": "https://ae01.alicdn.com/kf/S12021412d6a34115be4f5baef689af25J.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "2pcs pink",
+              "property_value_id": 365458,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "XL",
+              "sku_property_name": "Size",
+              "property_value_id": 100014065,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:100014064;14:350850#2pcs red",
+          "offer_sale_price": "8.83",
+          "sku_id": "12000048661747779",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "19.19",
+          "offer_bulk_sale_price": "8.83",
+          "sku_available_stock": 3,
+          "id": "5:100014064;14:350850#2pcs red",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "Gold",
+              "sku_image": "https://ae01.alicdn.com/kf/S1363b27bc97845beb328f69c9c39adacc.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "2pcs red",
+              "property_value_id": 350850,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "S",
+              "sku_property_name": "Size",
+              "property_value_id": 100014064,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:100014064;14:10#red",
+          "offer_sale_price": "4.80",
+          "sku_id": "12000042671317949",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "15.47",
+          "offer_bulk_sale_price": "4.80",
+          "sku_available_stock": 1,
+          "id": "5:100014064;14:10#red",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "Red",
+              "sku_image": "https://ae01.alicdn.com/kf/S10a9c4b022de4568b7ab8a2d24609cab7.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "red",
+              "property_value_id": 10,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "S",
+              "sku_property_name": "Size",
+              "property_value_id": 100014064,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:361386;14:200004890#black pink",
+          "offer_sale_price": "9.62",
+          "sku_id": "12000048661747788",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "20.47",
+          "offer_bulk_sale_price": "9.62",
+          "sku_available_stock": 2,
+          "id": "5:361386;14:200004890#black pink",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "Dark Grey",
+              "sku_image": "https://ae01.alicdn.com/kf/S1bb93752767042ca913c4f17d7d87b5a0.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "black pink",
+              "property_value_id": 200004890,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "M",
+              "sku_property_name": "Size",
+              "property_value_id": 361386,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:100014065;14:193#black",
+          "offer_sale_price": "5.52",
+          "sku_id": "12000042671317948",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "17.24",
+          "offer_bulk_sale_price": "5.52",
+          "sku_available_stock": 1,
+          "id": "5:100014065;14:193#black",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "black",
+              "sku_image": "https://ae01.alicdn.com/kf/Sb5ef4dc5d9f74a49a6e994cfd229db275.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "black",
+              "property_value_id": 193,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "XL",
+              "sku_property_name": "Size",
+              "property_value_id": 100014065,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:361385;14:200004890#black pink",
+          "offer_sale_price": "9.99",
+          "sku_id": "12000048661747789",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "21.25",
+          "offer_bulk_sale_price": "9.99",
+          "sku_available_stock": 3,
+          "id": "5:361385;14:200004890#black pink",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "Dark Grey",
+              "sku_image": "https://ae01.alicdn.com/kf/S1bb93752767042ca913c4f17d7d87b5a0.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "black pink",
+              "property_value_id": 200004890,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "L",
+              "sku_property_name": "Size",
+              "property_value_id": 361385,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:361385;14:10#red",
+          "offer_sale_price": "4.83",
+          "sku_id": "12000042671317951",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "15.58",
+          "offer_bulk_sale_price": "4.83",
+          "sku_available_stock": 20,
+          "id": "5:361385;14:10#red",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "Red",
+              "sku_image": "https://ae01.alicdn.com/kf/S10a9c4b022de4568b7ab8a2d24609cab7.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "red",
+              "property_value_id": 10,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "L",
+              "sku_property_name": "Size",
+              "property_value_id": 361385,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:100014065;14:200004890#black pink",
+          "offer_sale_price": "10.14",
+          "sku_id": "12000048661747790",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "21.57",
+          "offer_bulk_sale_price": "10.14",
+          "sku_available_stock": 1,
+          "id": "5:100014065;14:200004890#black pink",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "Dark Grey",
+              "sku_image": "https://ae01.alicdn.com/kf/S1bb93752767042ca913c4f17d7d87b5a0.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "black pink",
+              "property_value_id": 200004890,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "XL",
+              "sku_property_name": "Size",
+              "property_value_id": 100014065,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:361386;14:10#red",
+          "offer_sale_price": "4.13",
+          "sku_id": "12000042671317950",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "13.33",
+          "offer_bulk_sale_price": "4.13",
+          "sku_available_stock": 54,
+          "id": "5:361386;14:10#red",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "Red",
+              "sku_image": "https://ae01.alicdn.com/kf/S10a9c4b022de4568b7ab8a2d24609cab7.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "red",
+              "property_value_id": 10,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "M",
+              "sku_property_name": "Size",
+              "property_value_id": 361386,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:100014064;14:175#black red",
+          "offer_sale_price": "9.85",
+          "sku_id": "12000048661747791",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "20.97",
+          "offer_bulk_sale_price": "9.85",
+          "sku_available_stock": 3,
+          "id": "5:100014064;14:175#black red",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "green",
+              "sku_image": "https://ae01.alicdn.com/kf/S5c7d0e0817274eaea9db9fbf4360847bH.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "black red",
+              "property_value_id": 175,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "S",
+              "sku_property_name": "Size",
+              "property_value_id": 100014064,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:100014064;14:193#black",
+          "offer_sale_price": "5.34",
+          "sku_id": "12000042671317945",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "16.69",
+          "offer_bulk_sale_price": "5.34",
+          "sku_available_stock": 10,
+          "id": "5:100014064;14:193#black",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "black",
+              "sku_image": "https://ae01.alicdn.com/kf/Sb5ef4dc5d9f74a49a6e994cfd229db275.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "black",
+              "property_value_id": 193,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "S",
+              "sku_property_name": "Size",
+              "property_value_id": 100014064,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:361386;14:691#black blue",
+          "offer_sale_price": "9.76",
+          "sku_id": "12000048661747784",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "20.77",
+          "offer_bulk_sale_price": "9.76",
+          "sku_available_stock": 5,
+          "id": "5:361386;14:691#black blue",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "GRAY",
+              "sku_image": "https://ae01.alicdn.com/kf/S7b466981e82b404a8cdaea4a354b6cfb0.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "black blue",
+              "property_value_id": 691,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "M",
+              "sku_property_name": "Size",
+              "property_value_id": 361386,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:361385;14:691#black blue",
+          "offer_sale_price": "10.14",
+          "sku_id": "12000048661747785",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "21.58",
+          "offer_bulk_sale_price": "10.14",
+          "sku_available_stock": 2,
+          "id": "5:361385;14:691#black blue",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "GRAY",
+              "sku_image": "https://ae01.alicdn.com/kf/S7b466981e82b404a8cdaea4a354b6cfb0.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "black blue",
+              "property_value_id": 691,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "L",
+              "sku_property_name": "Size",
+              "property_value_id": 361385,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:361385;14:193#black",
+          "offer_sale_price": "5.36",
+          "sku_id": "12000042671317947",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "16.76",
+          "offer_bulk_sale_price": "5.36",
+          "sku_available_stock": 3,
+          "id": "5:361385;14:193#black",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "black",
+              "sku_image": "https://ae01.alicdn.com/kf/Sb5ef4dc5d9f74a49a6e994cfd229db275.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "black",
+              "property_value_id": 193,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "L",
+              "sku_property_name": "Size",
+              "property_value_id": 361385,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:100014065;14:691#black blue",
+          "offer_sale_price": "10.36",
+          "sku_id": "12000048661747786",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "22.04",
+          "offer_bulk_sale_price": "10.36",
+          "sku_available_stock": 15,
+          "id": "5:100014065;14:691#black blue",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "GRAY",
+              "sku_image": "https://ae01.alicdn.com/kf/S7b466981e82b404a8cdaea4a354b6cfb0.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "black blue",
+              "property_value_id": 691,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "XL",
+              "sku_property_name": "Size",
+              "property_value_id": 100014065,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:361386;14:193#black",
+          "offer_sale_price": "5.22",
+          "sku_id": "12000042671317946",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "16.31",
+          "offer_bulk_sale_price": "5.22",
+          "sku_available_stock": 4,
+          "id": "5:361386;14:193#black",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "black",
+              "sku_image": "https://ae01.alicdn.com/kf/Sb5ef4dc5d9f74a49a6e994cfd229db275.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "black",
+              "property_value_id": 193,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "M",
+              "sku_property_name": "Size",
+              "property_value_id": 361386,
+              "sku_property_id": 5
+            }
+          ]
+        },
+        {
+          "sku_attr": "5:100014064;14:200004890#black pink",
+          "offer_sale_price": "9.92",
+          "sku_id": "12000048661747787",
+          "price_include_tax": false,
+          "currency_code": "USD",
+          "sku_price": "21.11",
+          "offer_bulk_sale_price": "9.92",
+          "sku_available_stock": 4,
+          "id": "5:100014064;14:200004890#black pink",
+          "ae_sku_property_dtos": [
+            {
+              "sku_property_value": "Dark Grey",
+              "sku_image": "https://ae01.alicdn.com/kf/S1bb93752767042ca913c4f17d7d87b5a0.jpg",
+              "sku_property_name": "Color",
+              "property_value_definition_name": "black pink",
+              "property_value_id": 200004890,
+              "sku_property_id": 14
+            },
+            {
+              "sku_property_value": "S",
+              "sku_property_name": "Size",
+              "property_value_id": 100014064,
+              "sku_property_id": 5
+            }
+          ]
+        }
+      ],
+      "ae_multimedia_info_dto": {
+        "image_urls": "https://ae01.alicdn.com/kf/Se481309d2d92424b9f0a79bc6e7326d11.jpg;https://ae01.alicdn.com/kf/Sed63e0b77ba542c3ab7177b20f83c894l.jpg;https://ae01.alicdn.com/kf/S3510153816c54ffda18b39229d0f8da0C.jpg;https://ae01.alicdn.com/kf/S260c36d00a0c44d59c9dc439ce307e00b.jpg;https://ae01.alicdn.com/kf/Sbc855f82ea78495ebe8dcc8e359889803.jpg;https://ae01.alicdn.com/kf/S42d776d6dfb34edd95787d7becb7dba66.jpg"
+      },
+      "package_info_dto": {
+        "package_width": 12,
+        "package_height": 4,
+        "package_length": 24,
+        "gross_weight": "0.120",
+        "package_type": false,
+        "product_unit": 100000015
+      },
+      "logistics_info_dto": {
+        "delivery_time": 7,
+        "ship_to_country": "US"
+      },
+      "product_id_converter_result": {
+        "main_product_id": 1005007879054168,
+        "sub_product_id": "{\"US\":3256807692739416}"
+      },
+      "ae_item_base_info_dto": {
+        "mobile_detail": "{\"version\":\"2.0.0\",\"moduleList\":[{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S71d2683275bf418e9c4a31ef680215489.jpg\",\"style\":{\"width\":800,\"height\":100}}},{\"type\":\"text\",\"data\":{\"content\":\"Size, S, Bust: 82cm, Tops Length: 32cm ,Waist: 63cm, Hips: 98cm,  Bottoms Length: 7cm\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Size, M, Bust: 86cm, Tops Length: 33cm ,Waist: 65cm, Hips: 104cm, Bottoms Length: 8cm\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Size, L, Bust: 92cm,Tops Length: 34cm ,Waist: 67cm, Hips: 108cm, Bottoms Length: 8cm\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Size, xL, Bust: 98cm,Tops Length: 35cm ,Waist: 69cm, Hips: 112cm, Bottoms Length: 9cm\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Attention : ( 1 inch=2.54 cm, 1 cm=0.39 inch )\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Please strictly follow the size chart to select the size. Do not select directly according to your habits.\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"This clothing size information is just for reference only, and may have 2-3cm differences due to manual measurement.\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"text\",\"data\":{\"content\":\"Item color displayed in photos may be showing slightly different on your computer monitor since monitors are not calibrated same.\",\"style\":{\"paddingLeft\":16,\"paddingRight\":16,\"paddingTop\":10,\"paddingBottom\":10,\"fontSize\":14,\"fontWeight\":\"regular\",\"align\":\"left\",\"color\":\"#666666\",\"fontFamily\":\"OpenSans\",\"backgroundColor\":\"#FFFFFF\"}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S777148c6cf6241d094cf5652fc8da9c9Q.jpg\",\"style\":{\"width\":800,\"height\":100}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S71cdde43ff23426eaa1651bf81a79465l.jpg\",\"style\":{\"width\":900,\"height\":1198}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S0af1ebff6c474cd9af710e4bbde2d3c3Y.jpg\",\"style\":{\"width\":900,\"height\":900}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sa8d991051a5d40289843104144a51710W.jpg\",\"style\":{\"width\":850,\"height\":850}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sbef4c1540e2c4a6897fb34240b74585an.jpg\",\"style\":{\"width\":850,\"height\":850}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S14c97b00c5eb493ebdf42e4d095c398af.jpg\",\"style\":{\"width\":900,\"height\":1198}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S567009da65494bd39dfe4b47b02ad6c9y.jpg\",\"style\":{\"width\":850,\"height\":850}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S53f782e30c9947d881562763b0cf7a95B.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S42d776d6dfb34edd95787d7becb7dba66.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S9180dd6fe667476ba0549d11ecea694cn.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S260c36d00a0c44d59c9dc439ce307e00b.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sf6a3727389284a76963061bad6376760T.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sbc855f82ea78495ebe8dcc8e359889803.jpg\",\"style\":{\"width\":800,\"height\":800}}},{\"type\":\"image\",\"data\":{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S3510153816c54ffda18b39229d0f8da0C.jpg\",\"style\":{\"width\":800,\"height\":800}}}]}",
+        "subject": "Women's Pajamas Set Sleepwear 2 PCS Short Tank Tops And Shorts S M L White Ventilate Soft Casual Love Printing",
+        "evaluation_count": "10085",
+        "sales_count": "10000+",
+        "product_status_type": "onSelling",
+        "avg_evaluation_rating": "4.6",
+        "separated_listing": false,
+        "currency_code": "CNY",
+        "sl_product": false,
+        "category_id": 200001904,
+        "product_id": 1005007879054168,
+        "detail": "<p><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S71d2683275bf418e9c4a31ef680215489.jpg\" slate-data-type=\"image\"/></p><p style=\"font-family:&quot;TT Norms Pro&quot;, &quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:center;white-space:normal;color:rgb(34, 34, 34);margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"center\"><strong><span style=\"font-size:18px\"><span style=\"font-family:宋体\"><br/>Size, S, Bust: 82cm, Tops Length: 32cm ,Waist: 63cm, Hips: 98cm,  Bottoms Length: 7cm</span></span></strong></p><p style=\"font-family:&quot;TT Norms Pro&quot;, &quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:center;white-space:normal;color:rgb(34, 34, 34);margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"center\"><strong><span style=\"font-size:18px\"><span style=\"font-family:宋体\">Size, M, Bust: 86cm, Tops Length: 33cm ,Waist: 65cm, Hips: 104cm, Bottoms Length: 8cm</span></span></strong></p><p style=\"font-family:&quot;TT Norms Pro&quot;, &quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:center;white-space:normal;color:rgb(34, 34, 34);margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"center\"><strong><span style=\"font-size:18px\"><span style=\"font-family:宋体\">Size, L, Bust: 92cm,Tops Length: 34cm ,Waist: 67cm, Hips: 108cm, Bottoms Length: 8cm<br/>Size, xL, Bust: 98cm,Tops Length: 35cm ,Waist: 69cm, Hips: 112cm, Bottoms Length: 9cm</span></span></strong></p><p style=\"font-family:&quot;TT Norms Pro&quot;, &quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:center;white-space:normal;color:rgb(34, 34, 34);margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"center\"><span style=\"font-size:18px\"><span style=\"color:rgb(255, 0, 0)\"><span style=\"font-family:arial, helvetica, sans-serif\"><br/>Attention</span></span></span><span> </span><span style=\"font-size:18px\"><span style=\"font-family:arial, helvetica, sans-serif\">: ( 1 inch=2.54 cm, 1 cm=0.39 inch )<br/>Please strictly follow the size chart to select the size. Do not select directly according to your habits.<br/>This clothing size information is just for reference only, and may have 2-3cm differences due to manual measurement.<br/>Item color displayed in photos may be showing slightly different on your computer monitor since monitors are not</span></span><span style=\"font-size:18px\"><span style=\"font-family:arial, helvetica, sans-serif\"><span> </span></span></span><span style=\"font-size:18px\"><span style=\"background-color:rgb(255, 255, 255)\"><span style=\"color:rgb(0, 0, 0)\"><span style=\"font-family:arial, helvetica, sans-serif\">calibrated same.</span></span></span></span><br/></p><p style=\"font-family:&quot;TT Norms Pro&quot;, &quot;Open Sans&quot;, Roboto, Arial, Helvetica, sans-serif, SimSun;font-size:14px;font-weight:400;letter-spacing:normal;line-height:inherit;text-align:center;white-space:normal;color:rgb(34, 34, 34);margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"center\"><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S777148c6cf6241d094cf5652fc8da9c9Q.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S71cdde43ff23426eaa1651bf81a79465l.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S0af1ebff6c474cd9af710e4bbde2d3c3Y.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sa8d991051a5d40289843104144a51710W.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sbef4c1540e2c4a6897fb34240b74585an.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S14c97b00c5eb493ebdf42e4d095c398af.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S567009da65494bd39dfe4b47b02ad6c9y.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S53f782e30c9947d881562763b0cf7a95B.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S42d776d6dfb34edd95787d7becb7dba66.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S9180dd6fe667476ba0549d11ecea694cn.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S260c36d00a0c44d59c9dc439ce307e00b.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sf6a3727389284a76963061bad6376760T.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/Sbc855f82ea78495ebe8dcc8e359889803.jpg\" slate-data-type=\"image\"/><img src=\"https://ae-pic-a1.aliexpress-media.com/kf/S3510153816c54ffda18b39229d0f8da0C.jpg\" slate-data-type=\"image\"/></p>"
+      },
+      "has_whole_sale": false,
+      "ae_item_properties": [
+        {
+          "attr_name_id": 2,
+          "attr_value_id": 201512802,
+          "attr_name": "Brand Name",
+          "attr_value": "NONE"
+        },
+        {
+          "attr_name_id": 284,
+          "attr_value_id": 494,
+          "attr_name": "Gender",
+          "attr_value": "Women"
+        },
+        {
+          "attr_name_id": 10,
+          "attr_value_id": 48,
+          "attr_name": "Material",
+          "attr_value": "POLYESTER"
+        },
+        {
+          "attr_name_id": 10,
+          "attr_value_id": 100019017,
+          "attr_name": "Material",
+          "attr_value": "Elastane"
+        },
+        {
+          "attr_name_id": 200000457,
+          "attr_value_id": 8322,
+          "attr_name": "Collar",
+          "attr_value": "Spaghetti Strap"
+        },
+        {
+          "attr_name_id": 380,
+          "attr_value_id": 200005669,
+          "attr_name": "Length",
+          "attr_value": "Shorts"
+        },
+        {
+          "attr_name_id": 6,
+          "attr_value_id": 1914,
+          "attr_name": "Type",
+          "attr_value": "Shorts"
+        },
+        {
+          "attr_name_id": 6,
+          "attr_value_id": 200002178,
+          "attr_name": "Type",
+          "attr_value": "Pajamas"
+        },
+        {
+          "attr_name_id": 400000603,
+          "attr_value_id": 23399591357,
+          "attr_name": "High-concerned chemical",
+          "attr_value": "none"
+        },
+        {
+          "attr_name_id": 200000329,
+          "attr_value_id": 200001255,
+          "attr_name": "Pattern Type",
+          "attr_value": "Geometric"
+        },
+        {
+          "attr_name_id": 326,
+          "attr_value_id": 200000890,
+          "attr_name": "Style",
+          "attr_value": "sexy"
+        },
+        {
+          "attr_name_id": 219,
+          "attr_value_id": 9441741844,
+          "attr_name": "Origin",
+          "attr_value": "Mainland China"
+        },
+        {
+          "attr_name_id": 266081643,
+          "attr_value_id": 100015190,
+          "attr_name": "CN",
+          "attr_value": "Guangdong"
+        },
+        {
+          "attr_name_id": 100007732,
+          "attr_value_id": 1874,
+          "attr_name": "Sleeve Length(cm)",
+          "attr_value": "Sleeveless"
+        },
+        {
+          "attr_name_id": 281,
+          "attr_value_id": 1870,
+          "attr_name": "Season",
+          "attr_value": "summer"
+        },
+        {
+          "attr_name_id": 340863826,
+          "attr_value_id": 4388665,
+          "attr_name": "Craft of Weaving",
+          "attr_value": "Knit"
+        },
+        {
+          "attr_name_id": 200362261,
+          "attr_value_id": 349906,
+          "attr_name": "Obscene Picture",
+          "attr_value": "No"
+        },
+        {
+          "attr_name_id": 200000137,
+          "attr_value_id": 200002178,
+          "attr_name": "Item Type",
+          "attr_value": "Pajamas"
+        },
+        {
+          "attr_name_id": 200363261,
+          "attr_value_id": 349906,
+          "attr_name": "Sexually Suggestive",
+          "attr_value": "No"
+        },
+        {
+          "attr_name_id": -1,
+          "attr_name": "Choice",
+          "attr_value": "yes"
+        },
+        {
+          "attr_name": "size_info",
+          "attr_value": "{\"sizeInfoList\":[{\"length\":{\"cm\":\"84\",\"inch\":\"33.07\"},\"size\":\"S\",\"vid\":-1},{\"length\":{\"cm\":\"88\",\"inch\":\"34.65\"},\"size\":\"M\",\"vid\":-2},{\"length\":{\"cm\":\"92\",\"inch\":\"36.22\"},\"size\":\"L\",\"vid\":-3},{\"length\":{\"cm\":\"96\",\"inch\":\"37.80\"},\"size\":\"XL\",\"vid\":-4}]}"
+        }
+      ],
+      "ae_store_info": {
+        "store_id": 1104007545,
+        "shipping_speed_rating": "4.7",
+        "communication_rating": "4.6",
+        "store_name": "Mili Flagship Store",
+        "store_country_code": "CN",
+        "item_as_described_rating": "4.5"
+      }
+    },
+    "rsp_code": 200,
+    "rsp_msg": "Call succeeds",
+    "request_id": "2140d42a17896729526226980",
+    "_trace_id_": "2140f88817896729526202539e10a7"
+  }
+}
