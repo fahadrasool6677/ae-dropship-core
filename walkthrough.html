@@ -669,13 +669,13 @@
         <div class="brand-logo">AE</div>
         <div class="brand-text">
           <h1>AliExpress Dropshipping Integration</h1>
-          <p>Get Item by ID API &amp; OAuth 2.0 Engine</p>
+          <p>Get Item, Purchased Orders &amp; OAuth 2.0 Engine</p>
         </div>
       </a>
       <div class="header-badges">
         <span class="badge badge-success badge-pulse">OAuth Connected: pk1329062713bfar</span>
         <span class="badge">App Key: 544062</span>
-        <span class="badge">13/13 Vitest Passed</span>
+        <span class="badge">29/29 Vitest Passed</span>
       </div>
     </div>
   </header>
@@ -686,9 +686,9 @@
     <!-- Hero Banner -->
     <section class="hero">
       <span class="hero-tag">Official Integration Walkthrough</span>
-      <h2>AliExpress Get Item by ID &amp; OAuth 2.0 Engine</h2>
+      <h2>AliExpress Dropshipping Core &amp; Purchased Orders APIs</h2>
       <p>
-        A production-grade TypeScript integration connecting your dropshipping application directly to the AliExpress Open Platform (AE-Dropshipper). Features automated OAuth token acquisition, HMAC-SHA256 request signing, proactive token refresh, and complete response normalization.
+        A production-grade TypeScript integration connecting your dropshipping application directly to the AliExpress Open Platform (AE-Dropshipper). Features automated OAuth token acquisition, HMAC-SHA256 request signing, proactive token refresh, complete response normalization, and Purchased Orders retrieval by ID and date range.
       </p>
 
       <div class="hero-stats">
@@ -697,12 +697,12 @@
           <div class="stat-value">1005007879054168</div>
         </div>
         <div class="stat-card">
-          <div class="stat-label">Available Inventory</div>
-          <div class="stat-value">619 Units</div>
+          <div class="stat-label">Orders Capabilities</div>
+          <div class="stat-value">ID &amp; Date Range</div>
         </div>
         <div class="stat-card">
-          <div class="stat-label">SKU Variations</div>
-          <div class="stat-value">56 SKUs</div>
+          <div class="stat-label">Automated Tests</div>
+          <div class="stat-value">29 Passed (100%)</div>
         </div>
         <div class="stat-card">
           <div class="stat-label">Live Gateway</div>
@@ -714,6 +714,7 @@
     <!-- Interactive Navigation Tabs -->
     <nav class="tabs-nav">
       <button class="tab-btn active" onclick="switchTab('product')">📦 Live Product Showcase</button>
+      <button class="tab-btn" onclick="switchTab('orders')">📋 Purchased Orders APIs</button>
       <button class="tab-btn" onclick="switchTab('oauth')">🔐 OAuth 2.0 &amp; Signing Architecture</button>
       <button class="tab-btn" onclick="switchTab('codebase')">⚡ Codebase &amp; Architecture</button>
       <button class="tab-btn" onclick="switchTab('guide')">🚀 Setup &amp; CLI Commands</button>
@@ -824,6 +825,124 @@
               💾 Saved locally in: <code style="color: var(--accent-cyan);">data/sample-product-1005007879054168.json</code> (190 KB)
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB: Purchased Orders APIs -->
+    <section id="tab-orders" class="tab-content">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">📋 AliExpress Purchased Orders APIs (Date Range &amp; Order ID)</div>
+          <span class="badge badge-success">TOP Protocol Sync RPC</span>
+        </div>
+        <p style="color: var(--text-muted); margin-bottom: 20px;">
+          Enables dropshippers and merchants to retrieve orders placed by their authenticated AliExpress account. Includes date-range filtering, automated pagination, start/end boundary expansions, 180-day safety guards, and single-order detail lookups.
+        </p>
+
+        <div class="flow-steps">
+          <div class="flow-step">
+            <div class="step-number">1</div>
+            <div class="step-title">Get Orders by Date Range</div>
+            <div class="step-desc">
+              Queries orders within a specified window. Converts dates to <code>YYYY-MM-DD HH:mm:ss</code>, applies start-of-day (00:00:00) and end-of-day (23:59:59) boundaries, and enforces the platform 180-day window limit.
+            </div>
+            <div style="margin-top: 12px;">
+              <span class="file-tag">GET /api/aliexpress/orders?startDate=...&amp;endDate=...</span>
+            </div>
+          </div>
+
+          <div class="flow-step">
+            <div class="step-number">2</div>
+            <div class="step-title">Get Order by ID</div>
+            <div class="step-desc">
+              Retrieves full order specifications via <code>aliexpress.trade.ds.order.get</code>. Extracts order status, payment timestamp, child items, recipient address, and tracking numbers.
+            </div>
+            <div style="margin-top: 12px;">
+              <span class="file-tag">GET /api/aliexpress/orders/:orderId</span>
+            </div>
+          </div>
+
+          <div class="flow-step">
+            <div class="step-number">3</div>
+            <div class="step-title">Auto-Pagination Engine</div>
+            <div class="step-desc">
+              The <code>getAllOrdersByDateRange</code> helper automatically queries consecutive pages and aggregates all matching orders, strictly bound by a <code>maxPages</code> safety limit to eliminate infinite loops.
+            </div>
+            <div style="margin-top: 12px;">
+              <span class="file-tag">--all flag / fetchAll=true</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">💻 CLI Commands &amp; REST Endpoints Reference</div>
+          <span class="badge">Executable</span>
+        </div>
+
+        <div class="code-block" style="margin-bottom: 20px;">
+          <div class="code-header">
+            <span>Orders CLI Commands</span>
+            <button class="copy-btn" onclick="copyCode('cli-orders-cmd')">Copy</button>
+          </div>
+          <pre id="cli-orders-cmd"># 1. Query orders within date range (Page 1, 20 per page)
+npm run aliexpress:orders -- --start=2026-09-01 --end=2026-09-18
+
+# 2. Query with custom page, page-size and status filter
+npm run cli list-orders --start 2026-09-01 --end 2026-09-18 --page 1 --page-size 10 --status WAIT_SELLER_SEND_GOODS
+
+# 3. Automatically fetch and aggregate ALL pages in date range
+npm run cli list-orders --start 2026-09-01 --end 2026-09-18 --all
+
+# 4. Fetch specific order details by numeric Order ID
+npm run aliexpress:order -- --order-id=812345678901234
+
+# 5. Output raw AliExpress JSON payload
+npm run aliexpress:order -- --order-id=812345678901234 --raw</pre>
+        </div>
+
+        <div class="code-block">
+          <div class="code-header">
+            <span>Normalized Order Domain Model (TypeScript)</span>
+            <button class="copy-btn" onclick="copyCode('order-schema')">Copy</button>
+          </div>
+          <pre id="order-schema">{
+  "orderId": "812345678901234",
+  "orderStatus": "WAIT_SELLER_SEND_GOODS",
+  "createdAt": "2026-09-10T10:15:30.000Z",
+  "paidAt": "2026-09-10T10:16:00.000Z",
+  "orderAmount": { "amount": 45.99, "currency": "USD" },
+  "storeInfo": {
+    "storeId": "998877",
+    "storeName": "Official Tech Store"
+  },
+  "shippingAddress": {
+    "receiverName": "Jane Doe",
+    "countryCode": "US",
+    "city": "San Francisco",
+    "addressDetail": "123 Market St Apt 4B",
+    "zipCode": "94103"
+  },
+  "items": [
+    {
+      "childOrderId": "812345678901235",
+      "productId": "1005007879054168",
+      "productName": "Ultra Thin Mechanical Keyboard RGB Backlit",
+      "skuAttr": "Color: Space Gray | Switch: Red",
+      "quantity": 1,
+      "totalPrice": { "amount": 42.49, "currency": "USD" }
+    }
+  ],
+  "logistics": [
+    {
+      "trackingNumber": "LP001234567890",
+      "logisticsServiceName": "AliExpress Standard Shipping",
+      "status": "processing"
+    }
+  ]
+}</pre>
         </div>
       </div>
     </section>
@@ -1061,8 +1180,28 @@ curl "http://localhost:3000/api/health"</pre>
     ✓ should successfully fetch and normalize a raw AliExpress product response
     ✓ should handle AliExpress API error responses gracefully
 
- Test Files  3 passed (3)
-      Tests  13 passed (13)</pre>
+ ✓ tests/order.service.test.ts (11 tests)
+    ✓ should reject invalid, non-numeric order IDs
+    ✓ should correctly format date strings into YYYY-MM-DD HH:mm:ss
+    ✓ should reject invalid date range where startDate is after endDate
+    ✓ should reject date ranges that exceed the 180-day platform limit
+    ✓ should successfully fetch and normalize order details
+    ✓ should handle non-existent order responses with clear error message
+    ✓ should handle upstream AliExpress error codes
+    ✓ should retrieve a paginated page of orders and normalize results
+    ✓ should return empty order list gracefully when no orders found
+    ✓ should auto-paginate across multiple pages until all orders are fetched
+    ✓ should respect maxPages limit to prevent infinite pagination loops
+
+ ✓ tests/order.controller.test.ts (5 tests)
+    ✓ should return 400 when startDate or endDate are missing
+    ✓ should return paginated orders when valid date range is provided
+    ✓ should call getAllOrdersByDateRange when fetchAll=true is passed
+    ✓ should return 400 when orderId is non-numeric
+    ✓ should return normalized order on valid orderId
+
+ Test Files  5 passed (5)
+      Tests  29 passed (29)</pre>
         </div>
       </div>
     </section>

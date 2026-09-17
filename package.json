@@ -9,6 +9,8 @@
     "start": "node dist/server.js",
     "cli": "tsx src/cli.ts",
     "get-item": "tsx src/cli.ts get-item",
+    "aliexpress:orders": "tsx src/cli.ts list-orders",
+    "aliexpress:order": "tsx src/cli.ts get-order",
     "auth:url": "tsx src/cli.ts auth-url",
     "auth:token": "tsx src/cli.ts exchange",
     "test": "vitest run"

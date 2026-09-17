@@ -27,10 +27,16 @@ npm run cli exchange <AUTH_CODE>
 ```
 > Tokens are automatically saved to `.token.json` and auto-refreshed before expiring.
 
-### 3. Fetch Product Details
+### 3. Fetch Products & Purchased Orders
 ```bash
 # Fetch live product by ID (e.g. 1005007879054168)
 npm run get-item 1005007879054168 -- --country US --currency USD
+
+# Retrieve purchased orders by date range
+npm run aliexpress:orders -- --start=2026-09-01 --end=2026-09-18
+
+# Retrieve specific purchased order by Order ID
+npm run aliexpress:order -- --order-id=1234567890
 
 # Preview offline cached sample data
 npm run cli preview
@@ -44,6 +50,9 @@ Start the server: `npm run dev` (Runs on `http://localhost:3000`)
 
 | Action | CLI Command | REST Endpoint |
 |---|---|---|
+| **Get Order by ID** | `npm run aliexpress:order -- --order-id=<id>` | `GET /api/aliexpress/orders/:orderId` |
+| **Get Orders by Date** | `npm run aliexpress:orders -- --start=<d1> --end=<d2>` | `GET /api/aliexpress/orders?startDate=<d1>&endDate=<d2>&page=1&pageSize=20` |
+| **Get All Orders (Auto-page)** | `npm run cli list-orders --start <d1> --end <d2> --all` | `GET /api/aliexpress/orders?startDate=<d1>&endDate=<d2>&fetchAll=true` |
 | **Get Item by ID** | `npm run get-item <id> [--country US]` | `GET /api/aliexpress/items/:id?shipToCountry=US&currency=USD` |
 | **Offline Sample Preview** | `npm run cli preview` | `GET /api/aliexpress/items/preview/sample` |
 | **Generate OAuth Link** | `npm run auth:url` | `GET /api/aliexpress/auth/url` |
@@ -66,14 +75,15 @@ AE-order-poc/
 │   │   └── token-store.ts         # Persistent token store (.token.json)
 │   ├── services/
 │   │   ├── aliexpress-auth.service.ts    # OAuth & auto-refresh logic
-│   │   └── aliexpress-product.service.ts # Product retrieval & normalization
+│   │   ├── aliexpress-product.service.ts # Product retrieval & normalization
+│   │   └── aliexpress-order.service.ts   # Order retrieval, pagination & normalization
 │   ├── controllers/               # Express route handlers
 │   ├── routes/                    # API route definitions
 │   ├── server.ts                  # Express server entry point
 │   └── cli.ts                     # Command-line utility
 ├── data/                          # Cached sample product responses
 ├── walkthrough.html               # Interactive visual walkthrough dashboard
-└── tests/                         # Vitest test suite (npm test)
+└── tests/                         # Vitest test suite (29 tests)
 ```
 
 ---
@@ -82,4 +92,4 @@ AE-order-poc/
 
 - **Gateway URL**: Always uses the Singapore gateway (`https://api-sg.aliexpress.com`) for global applications.
 - **Request Signing**: All requests are signed using `HMAC-SHA256` with parameter ASCII sorting.
-- **Tests**: Run `npm test` to execute all 13 automated tests.
+- **Tests**: Run `npm test` to execute all 29 automated tests across 5 test suites.

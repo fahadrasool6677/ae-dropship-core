@@ -1,6 +1,7 @@
 #!/usr/bin/env tsx
 import { AliExpressAuthService } from "./services/aliexpress-auth.service.js";
 import { AliExpressProductService } from "./services/aliexpress-product.service.js";
+import { AliExpressOrderService } from "./services/aliexpress-order.service.js";
 import { TokenStore } from "./core/token-store.js";
 import { getConfig } from "./config/env.js";
 
@@ -12,25 +13,43 @@ Usage:
   npm run cli <command> [options]
 
 Commands:
-  auth-url                      Generate and display the OAuth authorization URL
-  exchange <code>               Exchange authorization code from OAuth callback for access tokens
-  refresh                       Refresh the stored access token
-  status                        Show current token and credential configuration status
-  preview                       Show the cached sample product (1005007879054168)
-  get-item <itemId> [options]   Fetch product details by AliExpress Product ID
+  auth-url                             Generate and display the OAuth authorization URL
+  exchange <code>                      Exchange authorization code from OAuth callback for access tokens
+  refresh                              Refresh the stored access token
+  status                               Show current token and credential configuration status
+  preview                              Show the cached sample product (1005007879054168)
+  get-item <itemId> [options]          Fetch product details by AliExpress Product ID
+  get-order <orderId> [options]        Fetch purchased order details by AliExpress Order ID
+  list-orders [options]                Fetch purchased orders within a date range
 
 Options for get-item:
-  --country <ISO2>              Destination country code (e.g. US, GB, ES, FR) [Default: US]
-  --currency <CODE>             Pricing currency (e.g. USD, EUR, GBP) [Default: USD]
-  --language <LANG>             Target language (e.g. EN, ES, FR, DE) [Default: EN]
-  --raw                         Output complete raw AliExpress JSON response
+  --country <ISO2>                     Destination country code (e.g. US, GB, ES, FR) [Default: US]
+  --currency <CODE>                    Pricing currency (e.g. USD, EUR, GBP) [Default: USD]
+  --language <LANG>                    Target language (e.g. EN, ES, FR, DE) [Default: EN]
+  --raw                                Output complete raw AliExpress JSON response
+
+Options for get-order:
+  --order-id <ID>                      Order ID (alternative to positional argument)
+  --raw                                Output complete raw AliExpress JSON response
+
+Options for list-orders:
+  --start <DATE>                       Start date (YYYY-MM-DD or ISO string) [Required]
+  --end <DATE>                         End date (YYYY-MM-DD or ISO string) [Required]
+  --page <NUM>                         Page number (default: 1)
+  --page-size <NUM>                    Orders per page, 1-50 (default: 20)
+  --status <STATUS>                    Filter by order status
+  --all                                Automatically retrieve all pages within date range
+  --raw                                Output complete raw AliExpress JSON response
 
 Examples:
   npm run cli auth-url
   npm run cli exchange 3_500020_abcdef123456
   npm run cli status
-  npm run get-item 1005006123456789
-  npm run cli get-item 1005006123456789 --country US --currency USD
+  npm run get-item 1005007879054168
+  npm run cli get-order 1234567890
+  npm run cli list-orders --start 2026-09-01 --end 2026-09-18
+  npm run aliexpress:orders -- --start=2026-09-01 --end=2026-09-18
+  npm run aliexpress:order -- --order-id=1234567890
 `);
 }
 
@@ -46,13 +65,21 @@ function parseArgs(args: string[]): {
   for (let i = 1; i < args.length; i++) {
     const arg = args[i];
     if (arg.startsWith("--")) {
-      const key = arg.slice(2);
-      const nextArg = args[i + 1];
-      if (nextArg && !nextArg.startsWith("--")) {
-        flags[key] = nextArg;
-        i++;
+      const rest = arg.slice(2);
+      const eqIdx = rest.indexOf("=");
+      if (eqIdx !== -1) {
+        const key = rest.slice(0, eqIdx);
+        const val = rest.slice(eqIdx + 1);
+        flags[key] = val;
       } else {
-        flags[key] = true;
+        const key = rest;
+        const nextArg = args[i + 1];
+        if (nextArg && !nextArg.startsWith("--")) {
+          flags[key] = nextArg;
+          i++;
+        } else {
+          flags[key] = true;
+        }
       }
     } else {
       positionals.push(arg);
@@ -68,6 +95,7 @@ async function main(): Promise<void> {
 
   const authService = new AliExpressAuthService();
   const productService = new AliExpressProductService(undefined, authService);
+  const orderService = new AliExpressOrderService(undefined, authService);
 
   switch (command.toLowerCase()) {
     case "auth-url": {
@@ -290,6 +318,240 @@ async function main(): Promise<void> {
       }
       console.log(`File Saved At:  data/sample-product-1005007879054168.json`);
       console.log("=======================================================\n");
+      break;
+    }
+
+    case "get-order":
+    case "order": {
+      const orderId =
+        positionals[0] ||
+        (flags["order-id"] as string) ||
+        (flags.orderId as string);
+      const isRaw = flags.raw === true || flags.raw === "true";
+
+      if (!orderId) {
+        console.error("❌ Error: Missing order ID.");
+        console.log("Usage: npm run cli get-order <orderId> [--raw]");
+        console.log("   or: npm run aliexpress:order -- --order-id=<orderId>");
+        process.exit(1);
+      }
+
+      try {
+        if (isRaw) {
+          const rawResponse = await orderService.getRawOrderById(orderId);
+          console.log("\n=======================================================");
+          console.log(`📦 RAW ALIEXPRESS ORDER RESPONSE (ID: ${orderId})`);
+          console.log("=======================================================");
+          console.log(JSON.stringify(rawResponse, null, 2));
+          console.log("=======================================================\n");
+          break;
+        }
+
+        const order = await orderService.getOrderById(orderId);
+        console.log("\n=======================================================");
+        console.log(`📦 ORDER DETAILS: ${order.orderId}`);
+        console.log("=======================================================");
+        console.log(`Status:         ${order.orderStatus}`);
+        console.log(`Created At:     ${order.createdAt || "N/A"}`);
+        if (order.paidAt) console.log(`Paid At:        ${order.paidAt}`);
+        if (order.shippedAt) console.log(`Shipped At:     ${order.shippedAt}`);
+        if (order.orderAmount) {
+          console.log(
+            `Total Amount:   ${order.orderAmount.currency} ${order.orderAmount.amount.toFixed(2)}`
+          );
+        }
+        if (order.storeInfo?.storeName) {
+          console.log(
+            `Store:          ${order.storeInfo.storeName} (ID: ${order.storeInfo.storeId || "N/A"})`
+          );
+        }
+        if (order.shippingAddress?.receiverName) {
+          console.log(
+            `Recipient:      ${order.shippingAddress.receiverName} (${order.shippingAddress.countryCode || ""}, ${order.shippingAddress.city || ""})`
+          );
+        }
+        console.log(`Total Items:    ${order.items.length}`);
+
+        if (order.items.length > 0) {
+          console.log("\n📋 ORDER ITEMS:");
+          for (const item of order.items) {
+            const priceStr = item.totalPrice
+              ? `${item.totalPrice.currency} ${item.totalPrice.amount.toFixed(2)}`
+              : "N/A";
+            console.log(
+              ` - [Child Order: ${item.childOrderId}] Product ID: ${item.productId}`
+            );
+            console.log(`   Title:    ${item.productName}`);
+            if (item.skuAttr) console.log(`   Variants: ${item.skuAttr}`);
+            console.log(`   Qty:      ${item.quantity} | Total: ${priceStr}`);
+            if (item.trackingNumber)
+              console.log(
+                `   Tracking: ${item.trackingNumber} (${item.logisticsServiceName || "Standard"})`
+              );
+          }
+        }
+
+        if (order.logistics && order.logistics.length > 0) {
+          console.log("\n🚚 LOGISTICS / SHIPMENT:");
+          for (const log of order.logistics) {
+            console.log(
+              ` - Service: ${log.logisticsServiceName || "Standard"} | Tracking #: ${log.trackingNumber || "N/A"} | Status: ${log.status || "N/A"}`
+            );
+          }
+        }
+
+        console.log("\n=======================================================");
+        console.log("✅ Order details retrieved successfully.");
+        console.log("=======================================================\n");
+      } catch (err) {
+        console.error("\n❌ Failed to retrieve order:\n");
+        console.error((err as Error).message);
+        process.exit(1);
+      }
+      break;
+    }
+
+    case "list-orders":
+    case "orders": {
+      const startDate =
+        (flags.start as string) ||
+        (flags["start-date"] as string) ||
+        (flags.startDate as string);
+      const endDate =
+        (flags.end as string) ||
+        (flags["end-date"] as string) ||
+        (flags.endDate as string);
+      const page = flags.page ? Number(flags.page) : 1;
+      const pageSize = flags["page-size"]
+        ? Number(flags["page-size"])
+        : flags.pageSize
+          ? Number(flags.pageSize)
+          : 20;
+      const status = (flags.status as string) || undefined;
+      const isAll = flags.all === true || flags.all === "true";
+      const isRaw = flags.raw === true || flags.raw === "true";
+
+      if (!startDate || !endDate) {
+        console.error("❌ Error: Missing date range arguments.");
+        console.log(
+          "Usage: npm run cli list-orders --start <YYYY-MM-DD> --end <YYYY-MM-DD> [options]"
+        );
+        console.log(
+          "   or: npm run aliexpress:orders -- --start=2026-09-01 --end=2026-09-18"
+        );
+        process.exit(1);
+      }
+
+      try {
+        if (isAll) {
+          console.log(
+            `\n🔍 Fetching all orders between ${startDate} and ${endDate}...`
+          );
+          const allResult = await orderService.getAllOrdersByDateRange({
+            startDate,
+            endDate,
+            pageSize,
+            orderStatus: status,
+          });
+
+          console.log(
+            "\n======================================================="
+          );
+          console.log(
+            `📋 PURCHASED ORDERS: ${startDate} to ${endDate} (All Pages)`
+          );
+          console.log(
+            "======================================================="
+          );
+          console.log(`Total Orders Retrieved: ${allResult.orders.length}`);
+          console.log(`Pages Fetched:          ${allResult.pagesFetched}`);
+          console.log(
+            "======================================================="
+          );
+
+          if (allResult.orders.length === 0) {
+            console.log("No orders found in this date range.");
+          } else {
+            for (const o of allResult.orders) {
+              const amtStr = o.orderAmount
+                ? `${o.orderAmount.currency} ${o.orderAmount.amount.toFixed(2)}`
+                : "N/A";
+              console.log(
+                ` • Order ID: ${o.orderId.padEnd(18)} | Status: ${o.orderStatus.padEnd(24)} | Amount: ${amtStr.padEnd(12)} | Date: ${o.createdAt || "N/A"}`
+              );
+            }
+          }
+          console.log(
+            "=======================================================\n"
+          );
+          break;
+        }
+
+        const pageResult = await orderService.getOrdersByDateRange({
+          startDate,
+          endDate,
+          page,
+          pageSize,
+          orderStatus: status,
+          raw: isRaw,
+        });
+
+        if (isRaw) {
+          console.log(
+            "\n======================================================="
+          );
+          console.log("📦 RAW ALIEXPRESS ORDERS LIST RESPONSE");
+          console.log(
+            "======================================================="
+          );
+          console.log(JSON.stringify(pageResult.raw, null, 2));
+          console.log(
+            "=======================================================\n"
+          );
+          break;
+        }
+
+        console.log(
+          "\n======================================================="
+        );
+        console.log(`📋 PURCHASED ORDERS: ${startDate} to ${endDate}`);
+        console.log(
+          "======================================================="
+        );
+        console.log(
+          `Page:        ${pageResult.pagination.currentPage} of ${pageResult.pagination.totalPages}`
+        );
+        console.log(
+          `Total Count: ${pageResult.pagination.totalCount} orders`
+        );
+        console.log(`Page Size:   ${pageResult.pagination.pageSize}`);
+        console.log(
+          `Next Page:   ${pageResult.pagination.hasNextPage ? "Yes" : "No"}`
+        );
+        console.log(
+          "======================================================="
+        );
+
+        if (pageResult.orders.length === 0) {
+          console.log("No orders found in this date range.");
+        } else {
+          for (const o of pageResult.orders) {
+            const amtStr = o.orderAmount
+              ? `${o.orderAmount.currency} ${o.orderAmount.amount.toFixed(2)}`
+              : "N/A";
+            console.log(
+              ` • Order ID: ${o.orderId.padEnd(18)} | Status: ${o.orderStatus.padEnd(24)} | Amount: ${amtStr.padEnd(12)} | Date: ${o.createdAt || "N/A"}`
+            );
+          }
+        }
+        console.log(
+          "=======================================================\n"
+        );
+      } catch (err) {
+        console.error("\n❌ Failed to retrieve orders:\n");
+        console.error((err as Error).message);
+        process.exit(1);
+      }
       break;
     }
 
