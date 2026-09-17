@@ -1,0 +1,8 @@
+# GitHub Linguist Language Overrides
+# Treat walkthrough HTML files and sample data as documentation/data,
+# so GitHub accurately identifies the repository as TypeScript.
+
+walkthrough.html linguist-documentation
+public/** linguist-documentation
+public/** linguist-vendored
+data/** linguist-data
